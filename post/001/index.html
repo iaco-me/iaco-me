@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css">
 
     <script>
-        function configurePage(){
+        function setTitle(){
           var fullTitle = document.getElementsByTagName('title')[0].innerHTML;
 
           var regexTags = /\[(.*?)\]/g;
@@ -37,17 +37,18 @@
             bTags += '<a>' + match[1] + '</a>';
           }
           document.getElementById('bottomTags').innerHTML = bTags;
-
+        }
+      function configurePage(){
           $('#author').load('/post/author.html');
           $('#footer').load('/post/footer.html');
-        }
+      }
       function loadPosts(){
           $('#list').load('/post/list.html');
       }
     </script>
 </head>
 
-<body onload="configurePage();">
+<body onload="setTitle();">
     <section class="blog-details-hero set-bg" data-setbg="cover.jpg">
       <div class="container">
           <div class="row">
@@ -164,6 +165,7 @@
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/main.js"></script>
+    <script onload="configurePage();"></script>
 </body>
 
 </html>
