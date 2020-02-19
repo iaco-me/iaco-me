@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+    <title>🌱 LET'S SAY THIS IS A NORMAL TITLE FOR A BLOG POST THAT IS KINDA BIG
+      #vegan #cookies #recipes
+      [IΛCO VIVΛCI][Katlen Carvalho][2020-03-01]
+    </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="IΛCO VIVΛCI IACO VIVACI">
+    <meta name="keywords" content="vegan, cookies, recipes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+    <script>
+        function configurePage(){
+          var fullTitle = document.getElementsByTagName('title')[0].innerHTML;
+
+          var regexTags = /\[(.*?)\]/g;
+          var tags = '';
+          for (var match of fullTitle.matchAll(regexTags)) {
+            tags += '<span>' + match[1] + '</span>';
+          }
+          document.getElementById('mainTags').innerHTML = tags;
+
+          var regexTitle = /^(.+?)[\n#\[]/;
+          var title = fullTitle.match(regexTitle)[1];
+          document.getElementById('mainTitle').innerHTML = title;
+
+          var regexBTags = /#(\w+)/g;
+          var bTags = '';
+          for (var match of fullTitle.matchAll(regexBTags)) {
+            bTags += '<a>' + match[1] + '</a>';
+          }
+          document.getElementById('bottomTags').innerHTML = bTags;
+
+          $('#author').load('/post/author.html');
+          $('#footer').load('/post/footer.html');
+        }
+      function loadPosts(){
+          $('#list').load('/post/list.html');
+      }
+    </script>
+</head>
+
+<body onload="configurePage();">
+    <section class="blog-details-hero set-bg" data-setbg="cover.jpg">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <div class="bd-hero-text">
+                      <h2 id="mainTitle"></h2>
+                      <div id="mainTags"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="blog-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="bd-text">
+                        <div class="bd-title">
+                            <p>Your clients would like to see optimal results for minimal work. For this reason, it can
+                                be difficult to convince them that a website redesign enhances SEO strategies. However,
+                                if you try to redesign a site without taking SEO into account, you are going to face
+                                bigger problems down the road.</p>
+                        </div>
+                        <div class="bd-more-text">
+                            <div class="row">
+                                <div class="col-lg-6 bd-title">
+                                    <div class="video-responsive">
+                                        <iframe width="450" height="250" src="https://www.youtube.com/embed/k_bXvm2oESs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 bd-title">
+                                    <p>Your clients would like to see optimal results for minimal work. For this reason, it can
+                                        be difficult to convince them that a website redesign enhances SEO strategies. However,
+                                        if you try to redesign a site without taking SEO into account, you are going to face
+                                        bigger problems down the road.</p>
+                                    <p>Start off by explaining to clients what will happen if you ignore SEO in your redesign.
+                                        Explain to them how a website redesign enhances SEO strategies.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bd-more-text">
+                            <div class="bm-item">
+                                <h4>1. You May Have to Redo All Your Content</h4>
+                                <p>It is impossible to create effective content without taking SEO into consideration.
+                                    If you create content without thinking about SEO, you may need to go back and redo
+                                    all the new content you made for your website when you start your SEO strategy.
+                                    There are a few reasons for this.</p>
+                                <p>First, you’ll be unsure as to what keyword terms you want to rank for. If you write
+                                    content that doesn’t include appropriate keywords, it will be difficult to go back
+                                    and include the terms naturally. Second, you may be unclear as to who makes up your
+                                    target audience. The content you write for the wrong audience is useless and will
+                                    need replacing.</p>
+                            </div>
+                            <div class="bm-item">
+                                <h4>2. You May Have Technical Mistakes</h4>
+                                <p>Technical mistakes may mean you require a site migration in the near future. This is
+                                    a huge waste of time. Taking the technical side of SEO into account now will allow
+                                    you to decide on</p>
+                            </div>
+                        </div>
+                        <div class="bd-quote">
+                            <p>“We need to stop interrupting what people are interested in and be what people are
+                                interested in.”</p>
+                            <div class="quote-author">
+                                <h5>Steven Jobs</h5>
+                                <span>CEO-DeerCreative</span>
+                            </div>
+                        </div>
+                        <div class="bd-last-para">
+                            <p>All the above assumes that a client is willing to create a website in the first place.
+                                Some clients may believe that they can forgo a website entirely. However, without a
+                                website, it is impossible for a business to grow. You need to explain why having an
+                                SEO-optimized website is necessary for being found online. Of course, businesses can
+                                find customers using other means, such as through social media, but these methods are
+                                slower. Plus, users will still expect the business to have a website — to obtain more
+                                information about products, services, and the brand as a whole.</p>
+                        </div>
+                        <div id="author" class="blog-author"></div>
+                        <div class="tag-share">
+                            <div id="bottomTags" class="tags"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest-blog-section recommend spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3><i class="fa fa-lg fa-plus-square"></i> More Posts</h3>
+                </div>
+            </div>
+            <div class="bd-hero-text">
+                <span style="cursor: pointer; min-height: 50px; padding-top: 15px; padding-bottom: 15px; font-weight: bold;"
+                    onclick="this.parent.style.visibility = 'hidden'; loadPosts();">
+                    CLICK TO LOAD MORE POSTS...
+                </span>
+            </div>
+            <div class="row" id="list">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="subscribe-option set-bg" data-setbg="/post/footer.jpg" id="footer">
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
