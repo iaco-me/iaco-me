@@ -329,18 +329,16 @@ ul, ol {
 	padding: 28px 0;
 	border-radius: 2px;
 	text-align: center;
+    padding-bottom: 35px;
 }
 .bd-text .blog-author .ba-pic img {
 	height: 144px;
 	width: 144px;
 	border-radius: 50%;
-	border: 10px solid #ffffff;
+	border: 10px solid #dddddd;
 }
 .bd-text .blog-author .ba-pic img:hover {
-	border: 10px solid #eeeeee;
-}
-.bd-text .blog-author .ba-text {
-	padding-top: 35px;
+	border: 10px solid #aaaaaa;
 }
 .bd-text .blog-author .ba-text h5 {
 	color: #111111;
