@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <style onload="loadHead();"></style>
+    <style id="headImport" onload="$('#headImport').load('/post/head.html');"></style>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
@@ -46,9 +46,6 @@
       }
       function loadPosts(){
           $('#list').load('/post/list.html');
-      }
-      function loadHead(){
-          $('#headImport').load('/post/head.html');
       }
     </script>
 </head>
