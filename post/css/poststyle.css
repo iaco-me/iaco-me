@@ -379,9 +379,6 @@ ul, ol {
         width: 450px;
         transform: translate(-225px, -155px);
     }
-    .post-text .blog-author .author-text {
-        padding-top: 15px;
-    }
 }
 @media only screen and (max-width: 991px) {
     .subscribe-option .so-text {
