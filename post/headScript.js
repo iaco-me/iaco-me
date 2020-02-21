@@ -25,8 +25,6 @@ function configurePage(){
   $.get('/post/head.html', function(data){
     $('head').append(data);
   });
-  $('body').append('<script src="/post/js/jquery-3.4.1.min.js"></script><script src="/post/js/bootstrap.min.js"></script><script src="/post/js/main.js"></script>');
-
 }
 function loadPosts(){
   $('#list').load('/post/list.html');
