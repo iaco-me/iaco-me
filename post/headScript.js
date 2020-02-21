@@ -27,7 +27,7 @@ function configurePage(){
   });
 }
 function loadPosts(){
-	var MAX_POSTS = 2;
+  var MAX_POSTS = 2;
   var set = new Set([1]);
   
   $('#list').load('/post/list.html');
