@@ -37,6 +37,3 @@ function configurePage(){
 function loadPosts(){
   $('#list').load('/post/list.html');
 }
-function loadPosts(){
-  $('#headImport').load('/post/head.html')
-}
