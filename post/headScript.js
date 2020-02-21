@@ -22,7 +22,7 @@ function setTitle(){
 function configurePage(){
   $('#author').load('/post/author.html');
   $('#footer').load('/post/footer.html');
-  $.get('head.html', function(data){
+  $.get('/post/head.html', function(data){
     $('head').append(data);
   });
 }
