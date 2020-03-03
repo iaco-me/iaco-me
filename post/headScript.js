@@ -22,6 +22,7 @@ function setTitle(){
 function configurePage(){
   $('#intro').load('/post/intro.html');
   $('#author').load('/post/author.html');
+  $('#morePosts').load('/post/morePosts.html');
   $('#footer').load('/post/footer.html');
   $.get('/post/head.html', function(data){
     $('head').append(data);
