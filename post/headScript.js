@@ -4,7 +4,7 @@ function setTitle(){
   var regexTags = /\[(.*?)\]/g;
   var tags = '';
   for (var match of fullTitle.matchAll(regexTags)) {
-    if(match[1] == "IΛCO VIVΛCI") tags += '<a href="https://iaco.me" style="cursor: pointer;"><span>' + match[1] + '</span></a>';
+    if(match[1] == "IΛCO VIVΛCI") tags += '<a href="https://iaco.me"><span style="cursor: pointer">' + match[1] + '</span></a>';
     else tags += '<span>' + match[1] + '</span>';
   }
   document.getElementById('mainTags').innerHTML = tags;
