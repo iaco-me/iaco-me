@@ -12,7 +12,7 @@ function setTitle(){
   var title = fullTitle.match(regexTitle)[1];
   document.getElementById('mainTitle').innerHTML = title;
 
-  var regexBTags = /#(\w+)/g;
+  var regexBTags = /#([\w-]+)/g;
   var bTags = '';
   for (var match of fullTitle.matchAll(regexBTags)) {
     bTags += '<a>' + match[1] + '</a>';
