@@ -1,5 +1,6 @@
+var fullTitle;
 function setTitle(){
-  var fullTitle = document.getElementsByTagName('title')[0].innerHTML;
+  fullTitle = document.getElementsByTagName('title')[0].innerHTML;
 
   var regexTags = /\[(.*?)\]/g;
   var tags = '';
@@ -12,7 +13,8 @@ function setTitle(){
   var regexTitle = /^(.+?)[\n#\[]/;
   var title = fullTitle.match(regexTitle)[1];
   document.getElementById('mainTitle').innerHTML = title;
-
+}
+function setTags(){
   var regexBTags = /#([\w-]+)/g;
   var bTags = '';
   for (var match of fullTitle.matchAll(regexBTags)) {
