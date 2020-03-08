@@ -291,6 +291,26 @@ ul, ol {
     background: linear-gradient(to right,#3333cc, #4481ca);
     cursor: default;
 }
+
+.post-text .translate a {
+    font-size: 12px;
+    color: #111111;
+    text-transform: uppercase;
+    background: #ebebeb;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    padding: 4px 16px;
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 6px;
+    transition: all 0.3s;
+}
+.post-text .translate a:hover {
+    color: #ffffff;
+    background: linear-gradient(to right,#3333cc, #4481ca);
+    cursor: default;
+}
+
 .post-text .tag-share .tags a:last-child {
     margin-right: 0;
 }
