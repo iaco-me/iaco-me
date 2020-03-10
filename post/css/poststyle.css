@@ -299,7 +299,7 @@ ul, ol {
     cursor: default;
 }
 
-.post-text .button a {
+.button a {
     font-size: 12px;
     color: #111111;
     text-transform: uppercase;
@@ -312,7 +312,7 @@ ul, ol {
     margin-right: 6px;
     transition: all 0.3s;
 }
-.post-text .button a:hover {
+.button a:hover {
     color: #ffffff;
     background: linear-gradient(to right,#3333cc, #4481ca);
     cursor: default;
