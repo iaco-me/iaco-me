@@ -17,7 +17,14 @@
 <body>
     <section class="blog-cover config-bg" data-setbg="cover.jpg">
         <div class="post-text translate">
-            <span class="button" onclick="this.display='none'">
+            <span id="google_translate_element" style="display: none;"></span>
+            <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+            }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <span class="button" onclick="this.style.display='none'; document.getElementById('google_translate_element').style.display=''">
                 <a style="cursor: pointer; padding: 4px;"><span>FR</span></a>
                 <a style="cursor: pointer; padding: 4px;"><span>PT</span></a>
                 <a style="cursor: pointer; padding: 4px;"><span><i class="fas fa-plus"></i></span></a>
