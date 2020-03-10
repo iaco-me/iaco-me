@@ -161,7 +161,6 @@ ul, ol {
 }
 .blog-cover {
     min-height: 520px;
-    padding-top: 120px;
 }
 .video-responsive {
     overflow:hidden;
@@ -188,6 +187,12 @@ ul, ol {
 }
 #mainTitle {
     animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    padding-top: 120px;
+}
+.translate {
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .blog-text {
     text-align: left;
