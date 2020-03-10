@@ -194,6 +194,8 @@ ul, ol {
     position: absolute;
     font-size: 12px;
     line-height: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 .blog-text {
     text-align: left;
