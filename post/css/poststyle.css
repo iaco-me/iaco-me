@@ -193,6 +193,8 @@ ul, ol {
     float: right;
     padding-right: 10px;
     padding-top: 10px;
+    font-size: 12px;
+    line-height: 15px;
 }
 .blog-text {
     text-align: left;
