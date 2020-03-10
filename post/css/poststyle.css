@@ -190,8 +190,8 @@ ul, ol {
     padding-top: 120px;
 }
 .translate {
-    float: right;
     position: absolute;
+    right: 0;
     font-size: 12px;
     line-height: 15px;
     padding-top: 10px;
