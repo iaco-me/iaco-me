@@ -122,14 +122,14 @@ ul {
     //text-overflow: ellipsis;
     //white-space: nowrap;
     max-height: 90px;
-    line-height: 30px;
+    line-height: 28px;
     margin: 0;
 }
 
 /* Article excerpt */
 
 .i-b div p {
-    line-height: 20px;
+    line-height: 18px;
     color: #bbbbbb;
 
     overflow: hidden;
