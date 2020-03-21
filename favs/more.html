@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IΛCO VIVΛCI</title>
+    <link rel="stylesheet" href="/config/favs.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <ul id="list"></ul>
+
+    <script src="/config/jquery/jquery.min.js"></script>
+    <script>
+        var links = [
+            ["hi@iaco.me", "https://www.ovh.com/fr/mail", "fa fa-envelope"],
+            ["Chrome Dark Mode", "chrome://flags", "fa fa-flag"],
+            ["IΛCO.me", "https://iaco.me", "fa fa-rocket"],
+            ["VIVΛCI.LIFE Project", "https://vivaci.life", "far fa-heart"],
+            ["7h15 <i class='fa fa-bus'></i> Condillac", "https://www.transisere.fr/fr/horaires-a-larret/28/StopSchedules/condillac-universites/30626/gieres-campus-montbonnot-bernin/80/bernin-montbonnot-saint-martin/1?Date=27%2F12%2F2018&PhysicalId=15279", "fa fa-briefcase"],
+            ["16h10 <i class='fa fa-bus'></i> Norbert Segard", "https://www.transisere.fr/fr/horaires-a-larret/28/StopSchedules/norbert-segard-cnet/43647/gieres-campus-montbonnot-bernin/80/gieres/2?Date=27%2F12%2F2018&PhysicalId=12069", "fa fa-home"],
+            ["Cronometer", "https://cronometer.com", "fa fa-apple-alt"],
+            ["iago-food-1w", "https://framacalc.org/iago-food-1w", "fa fa-carrot"]
+        ];
+        for(l of links) {
+            $("#list").append(
+                "<li class='i-s'>"+
+                "<a href='"+l[1]+"'>"+
+                "<div class='logo'><!-- <img src='config/images/avatars/1.jpg' width='48' /> -->"+
+                "<i class='"+(l[2] ? l[2] : "far fa-hand-pointer fa-rotate-90")+" fa-2x'></i>"+
+                "</div>"+
+                "<p class='title'>"+
+                l[0]+
+                "<span>"+l[1]+"</span>"+
+                "</p>"+
+                "</a>"+
+                "</li>");
+        }
+    </script>
+</body>
+</html>
