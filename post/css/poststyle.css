@@ -44,7 +44,7 @@ input:focus, select:focus, button:focus, textarea:focus {
 a:hover, a:focus {
     text-decoration: none;
     outline: none;
-    color: #fff;
+    color: #000;
 }
 ul, ol {
     padding: 0;
@@ -131,6 +131,9 @@ ul, ol {
 .blog-section {
     padding-bottom: 50px;
 }
+.blog-details {
+    padding-top: 20px;
+}
 .single-blog-item {
     margin-bottom: 42px;
 }
@@ -156,11 +159,9 @@ ul, ol {
     font-weight: 600;
     line-height: 30px;
 }
-.blog-details {
-    padding-top: 50px;
-}
 .blog-cover {
-    min-height: 520px;
+    min-height: 320px;
+    background: linear-gradient(to right, #4481ca, #3333cc);
 }
 .video-responsive {
     overflow:hidden;
@@ -175,7 +176,7 @@ ul, ol {
     width: 100%;
     position: absolute;
 }
-@keyframes slideInFromLeft {
+/* @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
         opacity: 0;
@@ -184,10 +185,10 @@ ul, ol {
         transform: translateX(0);
         opacity: 1;
     }
-}
+} */
 #mainTitle {
-    animation: 1.5s ease-out 0s 1 slideInFromLeft;
-    padding-top: 120px;
+    /* animation: 1.5s ease-out 0s 1 slideInFromLeft; */
+    padding-top: 100px;
 }
 .translate {
     position: absolute;
@@ -339,19 +340,19 @@ ul, ol {
 }
 .post-text .blog-author {
     margin-bottom: 30px;
-    border-top: 1px solid #ebebeb;
+    /* border-top: 1px solid #ebebeb; */
     padding-top: 30px;
 }
 .post-text .blog-author .author-photo {
     background: linear-gradient(to right,#3333cc55, #4481ca55);
-    padding: 28px 0;
+    padding: 15px;
     border-radius: 2px;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0 50px 15px 50px;
 }
 .post-text .blog-author .author-photo img {
-    height: 144px;
-    width: 144px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border: 10px solid #dddddd;
 }
@@ -361,11 +362,11 @@ ul, ol {
 .post-text .blog-author .author-text h5 {
     color: #111111;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 12px;
 }
 .post-text .blog-author .author-text p {
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .post-text .blog-author .author-text .social-icon a {

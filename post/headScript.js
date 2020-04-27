@@ -23,7 +23,7 @@ function setTags(){
   document.getElementById('bottomTags').innerHTML = bTags;
 }
 function configurePage(){
-  $('#intro').load('/post/intro.html');
+  $('#follow').load('/post/follow.html');
   $('#author').load('/post/author.html');
   $('#morePosts').load('/post/morePosts.html');
   $('#footer').load('/post/footer.html');
