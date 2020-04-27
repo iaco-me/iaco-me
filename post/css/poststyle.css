@@ -176,20 +176,6 @@ ul, ol {
     width: 100%;
     position: absolute;
 }
-/* @keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-} */
-#mainTitle {
-    /* animation: 1.5s ease-out 0s 1 slideInFromLeft; */
-    padding-top: 100px;
-}
 .translate {
     position: absolute;
     right: 0;
@@ -201,6 +187,7 @@ ul, ol {
 }
 .blog-text {
     text-align: left;
+    padding-top: 100px;
 }
 .blog-text span {
     font-size: 12px;

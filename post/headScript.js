@@ -1,3 +1,4 @@
+/*
 var fullTitle;
 function setTitle(){
   fullTitle = document.getElementsByTagName('title')[0].innerHTML;
@@ -22,6 +23,8 @@ function setTags(){
   }
   document.getElementById('bottomTags').innerHTML = bTags;
 }
+*/
+
 function configurePage(){
   $('#follow').load('/post/follow.html');
   $('#author').load('/post/author.html');
