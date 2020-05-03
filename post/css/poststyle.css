@@ -1,3 +1,5 @@
+@import url("balloon.css");
+
 html, body {
     font-family: "Poppins", sans-serif;
     font-smoothing: antialiased;
@@ -49,10 +51,6 @@ a:hover, a:focus {
 ul, ol {
     padding: 0;
     margin: 0;
-}
-
-#follow, #follow2 {
-    min-height: 200px;
 }
 
 /* Preloder */
