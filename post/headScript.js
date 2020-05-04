@@ -26,8 +26,8 @@ function setTags(){
 */
 
 function configurePage(){
-  $('#follow').load('/post/follow.html');
-  $('#follow2').load('/post/follow.html');
+  $('#toplateral').load('/post/follow.html');
+  $('#topmain').load('/post/follow.html');
   $('#author').load('/post/author.html');
   $('#morePosts').load('/post/morePosts.html');
   $('#footer').load('/post/footer.html');
