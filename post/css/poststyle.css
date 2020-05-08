@@ -403,7 +403,8 @@ ul, ol {
     display: inline-block;
     font-size: 14px;
     color: #111111;
-    margin-right: 25px;
+    margin-right: 12px;
+    margin-left: 12px;
 }
 
 /* Responsive media css */
