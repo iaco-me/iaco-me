@@ -1,4 +1,6 @@
-/.project
-node_modules
+_site
+.project
+.DS_Store
+*.swp
 .sass-cache
-bower_components
+*~

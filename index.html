@@ -1,3 +1,8 @@
+---
+layout: none
+title: Index
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,20 +10,20 @@
 
     <meta charset="utf-8">
     <meta property="og:description" content="IΛCO VIVΛCI (www.iaco.me)">
-    <meta property="og:image" content="https://iaco.me/img/IACO_big_black.jpg">
+    <meta property="og:image" content="https://iaco.me/assets/images/iaco-logo-share.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>IΛCO VIVΛCI - Love & Live Life, Take Good Care, Inspire</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-    <link rel="manifest" href="/icon/site.webmanifest">
-    <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#141414">
-    <link rel="shortcut icon" href="/icon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#141414">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
     <meta name="msapplication-TileColor" content="#141414">
-    <meta name="msapplication-config" content="/icon/browserconfig.xml">
+    <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
     <meta name="theme-color" content="#141414">
 
     <!-- Bootstrap core CSS -->
@@ -96,16 +101,41 @@
             <h5 class="text-white mx-auto mt-2 mb-2">for</h5>
             <h5 class="text-white mx-auto mt-2 mb-5">LIFE</h5>
         </i>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">VIVΛCI.LIFE</a>
+        <a id="posts" href="#posts" class="btn btn-primary js-scroll-trigger"><i class="fas fa-2x fa-angle-double-down"></i></a>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <section id="about" class="about-section text-center bg-black">
     <div class="container">
+        <div class="row mb-5" style="margin-top: -10vh;">
+            {% assign max_number = 2 %}
+            {% for post in site.posts %}
+
+                {% if post.featured == true and max_number > 0 %}
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <a target="_blank" href="{{ site.baseurl }}{{ post.url }}">
+                        {% if post.video %}
+                        <div class="card pt-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg');">
+                        {% else %}
+                        <div class="card pt-4 h-100">
+                        {% endif %}
+                          <div class="card-body text-center mt-3">
+                            <i class="fas fa-share fa-2x text-white mt-2 mb-4" style="text-shadow: 0px 0px 5px black"></i>
+                            <div class="text-white" style="text-shadow: 0px 2px 8px #404040, 1px 1px 5px #404040, 1px 1px 2px #404040;">{{ post.title | strip_html | truncatewords:10 }}</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {% assign max_number = max_number | minus: 1 %}
+                {% endif %}
+
+            {% endfor %}
+        </div>
+
         <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-7 mx-auto mt-4 mb-4">
                 <h6 class="text-white-50 mb-2">I Love Life... I am</h6>
                 <h1 class="text-white mb-4"><b>VIVΛCI<span class="text-white-50">TY</span></b></h1>
                 <i>
@@ -117,8 +147,10 @@
                 </i>
                 <a href="#projects" class="btn btn-primary js-scroll-trigger">My people & Our world</a>
             </div>
+            <div class="col-lg-4 mx-auto" style="margin-top: auto; margin-bottom: auto;">
+                <img src="assets/images/iaco-alpha.png" class="img-fluid mb-3" alt="" style="max-width: 200px;">
+            </div>
         </div>
-      <img src="img/earth.png" class="img-fluid mt-5" alt="">
     </div>
   </section>
 
@@ -134,7 +166,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5 project" style="cursor: pointer;" onclick="window.open('https://iaco.me/post/001')">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0 project-img" src="img/light.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0 project-img" src="assets/images/light.jpg" alt="">
           <div class="middle">vivaci.life</div>
         </div>
         <div class="col-xl-4 col-lg-5">

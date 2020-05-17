@@ -34,6 +34,10 @@
     --light: rgb(var(--rgbl));
 }
 
+body {
+    background: #222222;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #000000;
@@ -129,7 +133,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   /* background: linear-gradient(to bottom, rgba(0, 0, 15, 0.3) 0%, rgba(0, 0, 15, 0.5) 75%, rgba(0, 0, 15, 1) 100%), url("../img/bg-masthead.jpg"); */
-  background: linear-gradient(to bottom, rgba(0, 0, 15, 0) 0%, rgba(0, 0, 15, 0.3) 75%, rgba(0, 0, 15, 1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 15, 0) 0%, rgba(0, 0, 15, 0.3) 75%, rgba(0, 0, 15, 1) 100%), url("../assets/images/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -209,8 +213,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 15, 1) 0%, rgba(0, 0, 15, 0.5) 75%, rgba(0, 0, 15, 0) 100%), url("../img/bg-about.jpg");
+  /* padding-top: 10rem; */
+  background: linear-gradient(to bottom, rgba(0, 0, 15, 1) 0%, rgba(0, 0, 15, 0.3) 50%, rgba(0, 0, 15, 0.3) 80%, rgba(0, 0, 15, 1) 100%), url("../assets/images/bg-about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -270,41 +274,45 @@
 
 .contact-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%), url("../assets/images/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.contact-section .card {
+.contact-section .card, .about-section .card {
   border: 0;
   border-bottom: 0.25rem solid var(--light);
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.contact-section .card:hover {
-  background: rgba(0, 0, 0, 0.9);
+.contact-section .card:hover, .about-section .card:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0.75;
 }
 
-.contact-section .card h4 {
+.contact-section .card h4, .about-section .card h4 {
   font-size: 0.8rem;
   font-family: 'Comfortaa';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
 
-.contact-section .card hr {
+.contact-section .card hr, .about-section .card hr {
   border-color: var(--light);
   border-width: 0.25rem;
   width: 3rem;
 }
 
-.contact-section .social {
+.contact-section .social, .about-section .social {
   margin-top: 5rem;
 }
 
-.contact-section .social a {
+.contact-section .social a, .about-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -314,11 +322,11 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-.contact-section .social a:hover {
+.contact-section .social a:hover, .about-section .social a:hover {
   color: var(--dark);
 }
 
-.contact-section .social a:active {
+.contact-section .social a:active, .about-section .social a:active {
   color: var(--dark);
 }
 

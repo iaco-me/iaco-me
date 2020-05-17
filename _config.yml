@@ -1,0 +1,64 @@
+# Site
+name: "IΛCO VIVΛCI"
+title: "IACO VIVACI"
+description: "CARE for LIFE —&nbsp;a&nbsp;self-&#x2060;development&nbsp;journey"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /
+google_analytics: 'UA-158716451-1'
+# disqus: ''
+mailchimp-list: 'https://iaco.us18.list-manage.com/subscribe/post?u=82fec2178ac93f2d0f847d6fb&amp;id=61d5b52fe8'
+include: ["_pages"]
+permalink: /post/:title/
+
+# Authors
+authors:
+  iaco:
+    name: IΛCO VIVΛCI
+    display_name: IΛCO VIVΛCI
+    avatar: 'assets/images/avatar.png'
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: hi@iaco.mem
+    web: https://iaco.me
+    twitter: https://iaco.me/youtube
+    description: "I Care for Life"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /post/page/:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
