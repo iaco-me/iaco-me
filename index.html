@@ -110,6 +110,12 @@ title: Home
   <section id="about" class="about-section text-center bg-black">
     <div class="container">
         <div class="row mb-5" style="margin-top: -5vh;">
+            <div class="col-md-1 mb-3 mb-md-0 pt-md-5 text-md-right d-none d-md-block ">
+              <a href="/post/" class="text-white">
+                <i class="fas fa-angle-double-left fa-2x text-white mt-md-2" style="text-shadow: 0px 0px 5px black"></i>
+              </a>
+            </div>
+
             {% assign max_number = 2 %}
             {% for post in site.posts %}
 
@@ -132,11 +138,13 @@ title: Home
                 {% endif %}
 
             {% endfor %}
-            <div class="col-md-2 mb-3 mb-md-0 pt-md-5 text-md-left ">
+
+            <div class="col-md-1 mb-3 mb-md-0 pt-md-5 text-md-left">
               <a href="/post/" class="text-white">
                 <i class="fas fa-angle-double-right fa-2x text-white mt-md-2" style="text-shadow: 0px 0px 5px black"></i>
-                <br>
-                all posts
+                <span class="d-block d-lg-none">
+                    <br>all posts
+                </span>
               </a>
             </div>
         </div>
@@ -267,7 +275,7 @@ title: Home
             </div>
           </a>
         </div>
-          
+
         <div class="col-md-4 mb-2 mb-md-0">
           <a href="https://iaco.me/post">
             <div class="card py-4 h-100">
