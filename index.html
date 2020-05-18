@@ -115,7 +115,7 @@ title: Index
 
                 {% if post.featured == true and max_number > 0 %}
                     <div class="col-md-6 mb-3 mb-md-0">
-                      <a target="_blank" href="{{ site.baseurl }}{{ post.url }}">
+                      <a href="{{ site.baseurl }}{{ post.url }}">
                         {% if post.video %}
                         <div class="card pt-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg');">
                         {% else %}
@@ -235,25 +235,12 @@ title: Index
 
       <div class="row">
 
-        <!-- <div class="col-md-4 mb-3 mb-md-0">
-          <a href="mailto:hi@iaco.me">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="far fa-envelope fa-2x text-white mb-2"></i>
-                <h5 class="text-white m-0">Send me a letter</h5>
-                <hr class="my-4">
-                <div class="text-white">hi@iaco.me</div>
-              </div>
-            </div>
-          </a>
-        </div>  -->
-
-        <div class="col-md-6 mb-9 mb-md-0">
-          <a target="_blank" href="https://iaco.me/youtube">
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="https://iaco.me/youtube">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fab fa-youtube fa-2x text-white mb-2"></i>
-                <h5 class="text-white m-0">Great adventures here</h5>
+                <h5 class="text-white m-0">Subscribe</h5>
                 <hr class="my-4">
                 <div class="text-white">IΛCO VIVΛCI</div>
               </div>
@@ -261,14 +248,27 @@ title: Index
           </a>
         </div>
 
-        <div class="col-md-6 mb-9 mb-md-0">
-          <a target="_blank" href="https://iaco.me/instagram">
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="https://iaco.me/instagram">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fab fa-instagram fa-2x text-white mb-2"></i>
-                <h5 class="text-white m-0">Follow next adventures</h5>
+                <h5 class="text-white m-0">Follow</h5>
                 <hr class="my-4">
                 <div class="text-white">@iaco.me</div>
+              </div>
+            </div>
+          </a>
+        </div>
+          
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="https://iaco.me/post">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-instagram fa-2x text-white mb-2"></i>
+                <h5 class="text-white m-0">Watch</h5>
+                <hr class="my-4">
+                <div class="text-white">all posts</div>
               </div>
             </div>
           </a>
