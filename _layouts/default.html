@@ -118,8 +118,26 @@ ga('send', 'pageview');
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    <!--<script>new URLSearchParams(window.location.search).get('reply-iaco');</script>-->
-
+    <script>
+        var msg = new URLSearchParams(window.location.search).get('reply-iaco');
+        if(msg && msg != ""){
+            document.getElementById('dialog-msg').innerHTML = msg;
+            alert(msg);
+        }
+    </script>
+    <style>
+    #dialog-msg {
+        padding: 5px 10px 7px;
+        background: #5294db;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: lowercase;
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+    </style>
+    <span id="dialog-msg" onclick="$(this).hide();"></span>
     {{ content }}
 </div>
 
