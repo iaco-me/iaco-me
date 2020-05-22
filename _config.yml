@@ -43,6 +43,13 @@ jekyll-archives:
 paginate: 6
 paginate_path: /post/page/:num/
 
+# SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/iaco-logo-share.jpg
+
 # Other
 markdown: kramdown
 
