@@ -2,6 +2,8 @@
     transition: .5s ease;
     backface-visibility: hidden;
     opacity: 0.5;
+    -webkit-mask-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%) !important;
+    mask-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%) !important;
 }
 
 .middle {
@@ -31,7 +33,7 @@
 .project #vivacity-noun {
     transition: 0.5s;
     opacity: 0;
-    left: -100px;
+    left: -50px;
     position: relative;
 }
 
