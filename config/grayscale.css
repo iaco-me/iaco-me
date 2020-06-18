@@ -45,6 +45,7 @@
 
 .hover-white:hover {
     color: #ffffffff !important;
+    opacity: 1 !important;
 }
 
 /*!
