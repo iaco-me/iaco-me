@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: Ctrl
+title: CTRL
 permalink: /ctrl
 ---
 
