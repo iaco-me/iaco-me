@@ -16,5 +16,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
     gem 'kramdown'
+    gem "kramdown", ">= 2.3.0"
     gem 'rouge'
 end
