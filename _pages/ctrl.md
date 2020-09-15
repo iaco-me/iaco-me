@@ -120,7 +120,7 @@ permalink: /ctrl
     window.onload = function() {
       countUpFromTime("2018-06-28", 'gym', 'd');
       countUpFromTime("2019-02-28", 'vegan', 'd');
-      countUpFromTime("2020-04-28", 'sleepmaster', 'd');
+      countUpFromTime("2020-09-14", 'sleepmaster', 'd');
 
       countUpFromTime("2100-01-01", 'vivaci2100', 'w');
       countUpFromTime("2030-01-01", 'iaco2030', 'w');
