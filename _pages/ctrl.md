@@ -64,7 +64,7 @@ permalink: /ctrl
     <script src="../config/jquery/jquery.min.js"></script>
     <script>
         var links = [
-            ["hi@iaco.me", "https://www.ovh.com/fr/mail", "fa fa-envelope"],
+            ["hi@iaco.me", "https://mail.ovh.net/roundcube/?_task=login", "fa fa-envelope"],
             ["Chrome Dark Mode", "chrome://flags", "fa fa-flag"],
             ["IΛCO.me", "https://iaco.me", "fa fa-rocket"],
             ["VIVΛCI.LIFE Project", "https://vivaci.life", "far fa-heart"],
