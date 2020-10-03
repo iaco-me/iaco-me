@@ -16,6 +16,10 @@
     transform: translate(-50%, -50%);
 }
 
+.card-body {
+    padding: 2rem 1.25rem 0.5rem 1.25rem;
+}
+
 .project:hover .project-img {
     opacity: 1;
 }
