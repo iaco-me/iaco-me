@@ -139,11 +139,10 @@ permalink: /ctrl
                 <i class="fab fa-google fa-stack-1x fa-xs" style="color: white"></i>
             </span>
         </a>
-        &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;
         <a href="https://web.whatsapp.com">
             <i class='fab fa-whatsapp fa-2x'></i>
         </a>
-        &nbsp;
         <a href="https://www.messenger.com">
             <i class='fab fa-facebook-messenger fa-2x'></i>
         </a>
@@ -154,7 +153,7 @@ permalink: /ctrl
                 <i class="fab fa-instagram fa-stack-1x fa-lg" style="color: black"></i>
             </span>
         </a>
-        &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;
         <a href="https://www.facebook.com/profile">
             <i class='fab fa-facebook fa-2x'></i>
         </a>
