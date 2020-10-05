@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,6 +29,13 @@
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+<script>
+//load TrackerJS
+!function(t,n,e,o,a){function d(t){var n=~~(Date.now()/3e5),o=document.createElement(e);o.async=!0,o.src=t+"?ts="+n;var a=document.getElementsByTagName(e)[0];a.parentNode.insertBefore(o,a)}t.MooTrackerObject=a,t[a]=t[a]||function(){return t[a].q?void t[a].q.push(arguments):void(t[a].q=[arguments])},window.attachEvent?window.attachEvent("onload",d.bind(this,o)):window.addEventListener("load",d.bind(this,o),!1)}(window,document,"script","//cdn.stat-track.com/statics/moosend-tracking.min.js","mootrack");
+//tracker has to be initialized otherwise it will generate warnings and wont sendtracking events
+mootrack('init', 'fac2b76869954afe94efb0b0b6b5be43');
+</script>
 
 </head>
 
@@ -156,13 +164,14 @@ ga('send', 'pageview');
 
         <br class="d-block d-lg-none">
 
-        <form style="margin: 0 10px;" action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <!--<form style="margin: 0 10px;" action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="&#xf007; Name" name="FNAME" class="required email" id="mce-FNAME" autocomplete="on" required>
             <input type="email" placeholder="&#xf0e0; Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
-        </form>
+        </form>-->
+	<div data-mooform-id="3cda12cf-7280-43b2-9877-b10774e776b6" ></div>
 	</div>
 </div>
 {% endif %}
