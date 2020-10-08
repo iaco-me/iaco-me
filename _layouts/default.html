@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,6 +29,13 @@
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+<script>
+//load TrackerJS
+!function(t,n,e,o,a){function d(t){var n=~~(Date.now()/3e5),o=document.createElement(e);o.async=!0,o.src=t+"?ts="+n;var a=document.getElementsByTagName(e)[0];a.parentNode.insertBefore(o,a)}t.MooTrackerObject=a,t[a]=t[a]||function(){return t[a].q?void t[a].q.push(arguments):void(t[a].q=[arguments])},window.attachEvent?window.attachEvent("onload",d.bind(this,o)):window.addEventListener("load",d.bind(this,o),!1)}(window,document,"script","//cdn.stat-track.com/statics/moosend-tracking.min.js","mootrack");
+//tracker has to be initialized otherwise it will generate warnings and wont sendtracking events
+mootrack('init', 'fac2b76869954afe94efb0b0b6b5be43');
+</script>
 
 </head>
 
@@ -73,13 +81,17 @@ ga('send', 'pageview');
         <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto text-center">
-
+		
+		<li class="nav-item">
+                <a class="nav-link" href="https://iaco.me"><i class="fas fa-rocket fa-flip-horizontal"></i> IΛCO</a>
+                </li>
+		
                 {% if page.url == "/post/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/post"><i class="fas fa-bookmark"></i> All Posts</a>
+                <a class="nav-link" href="{{ site.baseurl }}/post"><i class="fas fa-bookmark"></i> Blog Posts</a>
                 </li>
 
                 <li class="nav-item">
@@ -153,16 +165,20 @@ ga('send', 'pageview');
         <span style="vertical-align: middle; margin: 0 10px;">
         <a href="https://twitter.com/IACO_me" class="twitter-follow-button" data-show-screen-name="false" data-dnt="true" data-show-count="false"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"> </script>
         </span>
+	&nbsp;
 
         <br class="d-block d-lg-none">
 
-        <form style="margin: 0 10px;" action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <!--<form style="margin: 0 10px;" action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="&#xf007; Name" name="FNAME" class="required email" id="mce-FNAME" autocomplete="on" required>
             <input type="email" placeholder="&#xf0e0; Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
-        </form>
+        </form>-->
+	<span onmouseover="document.getElementById('clearForm').style.opacity='1';" onmouseout="document.getElementById('clearForm').style.opacity='0';">
+		<i class="far fa-paper-plane"></i><iframe src="https://iaco.m-pages.com/iaco-newsletter" name="newsletter" style="border: none; height: 46px; margin: -14px 0; overflow: hidden; width: 230px;"></iframe><a target="newsletter" href="https://iaco.m-pages.com/iaco-newsletter"><i style="opacity: 0; color: lightblue; line-height: 28px; vertical-align: top;" id="clearForm" class="far fa-times-circle fa-xs"></i></a>
+	</span>
 	</div>
 </div>
 {% endif %}
