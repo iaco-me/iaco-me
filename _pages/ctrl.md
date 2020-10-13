@@ -180,7 +180,8 @@ permalink: /ctrl
             ["iago-food-1w", "https://lite.framacalc.org/iago-food-1w", "fa fa-carrot"],
             ["10h20 <i class='fa fa-bus'></i> Condillac", "https://www.transisere.fr/fr/horaires-a-larret/28/StopSchedules/condillac-universites/30626/gieres-campus-montbonnot-bernin/80/bernin-montbonnot-saint-martin/1?Date=27%2F12%2F2018&PhysicalId=15279", "fa fa-briefcase"],
             ["14h46 <i class='fa fa-bus'></i> Norbert Segard", "https://www.transisere.fr/fr/horaires-a-larret/28/StopSchedules/norbert-segard-cnet/43647/gieres-campus-montbonnot-bernin/80/gieres/2?Date=27%2F12%2F2018&PhysicalId=12069", "fa fa-home"],
-            ["Creator Studio", "https://business.facebook.com/creatorstudio", "fab fa-facebook"]
+            ["Creator Studio", "https://business.facebook.com/creatorstudio", "fab fa-facebook"],
+            ["Business Suite", "https://business.facebook.com/latest/inbox/messenger", "fa fa-user-tie"]
         ];
         for(l of links) {
             $("#list").append(
