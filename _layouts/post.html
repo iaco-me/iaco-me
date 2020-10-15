@@ -49,25 +49,23 @@ post_class: post-template
             {% endif %}
             <!-- End Adsense -->
 
-            <!-- Post Featured Image -->
-            {% if page.image %}
-
-            {% if site.lazyimages == "enabled" %}
-            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-            {% else %}
-            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-            {% endif %}
-
-            {% endif %}
-
+            <!-- Post Featured Image or Video -->
             {% if page.video %}
-            <div class="video-responsive">
-            <iframe width="450" height="250" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <center style="vertical-align: bottom; margin: 0 10px;">
-            <script src="https://apis.google.com/js/platform.js"></script>
-            <div class="g-ytsubscribe" data-channelid="UCOxMDClHhqeF0crXtROHGyA" data-layout="default" data-theme="dark" data-count="default" style="width: 105px; min-width: 105px; max-width: 105px; vertical-align: middle;"></div>
-            </center>
+                <div class="video-responsive">
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <center style="vertical-align: bottom; margin: 0 10px;">
+                <script src="https://apis.google.com/js/platform.js"></script>
+                <div class="g-ytsubscribe" data-channelid="UCOxMDClHhqeF0crXtROHGyA" data-layout="default" data-theme="dark" data-count="default" style="width: 105px; min-width: 105px; max-width: 105px; vertical-align: middle;"></div>
+                </center>
+            {% else %}
+                {% if page.image %}
+                    {% if site.lazyimages == "enabled" %}
+                        <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                    {% else %}
+                        <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                    {% endif %}
+                {% endif %}
             {% endif %}
 
             <!-- End Featured Image -->
