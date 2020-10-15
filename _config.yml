@@ -46,7 +46,7 @@ paginate_path: /post/page/:num/
 # Other
 feed:
   posts_limit: 30
-  path: a.xml
+  path: b.xml
 
 markdown: kramdown
 
