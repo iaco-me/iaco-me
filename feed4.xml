@@ -11,10 +11,10 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    <webfeeds:cover image="http://iaco.me/assets/images/iaco-logo-share-yt.jpg" />
-    <webfeeds:icon>http://feedly.com/icon.svg</webfeeds:icon>
-    <webfeeds:logo>http://yoursite.com/logo-30px-height.svg</webfeeds:logo>
-    <webfeeds:accentColor>0D91D9</webfeeds:accentColor>
+    <webfeeds:cover image="https://iaco.me/assets/images/iaco-logo-share-yt.jpg" />
+    <webfeeds:icon>https://iaco.me/assets/images/safari-pinned-tab.svg</webfeeds:icon>
+    <webfeeds:logo>https://iaco.me/assets/images/safari-pinned-tab.svg</webfeeds:logo>
+    <webfeeds:accentColor>ff2bfb</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <webfeeds:analytics id="UA-158716451-1" engine="GoogleAnalytics"/>
     {% for post in site.posts limit:10 %}
