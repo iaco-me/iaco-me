@@ -21,11 +21,13 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
+          &lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"&gt;
           {% if post.image %}
             &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}&quot; alt=&quot;{{ post.title }}&quot;&gt;
           {% else %}
             &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;/assets/images/iaco-logo-share.jpg&quot; alt=&quot;{{ post.title }}&quot;&gt;
           {% endif %}
+          &lt;/a&gt;
           &lt;p&gt;Full post and video 👉 &lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"&gt;{{ post.url | prepend: site.baseurl | prepend: site.url }}&lt;/a&gt;&lt;/p&gt;
           &lt;p&gt;—&lt;/p&gt;
           {{ post.content | xml_escape }}
