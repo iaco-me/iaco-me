@@ -18,11 +18,7 @@ layout: null
           {% if post.image %}
             &lt;img src=&quot;{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}&quot; alt=&quot;{{ post.title }}&quot;&gt;
           {% else %}
-            {% if post.video %}
-              &lt;img src=&quot;https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg&quot; alt=&quot;{{ post.title }}&quot;&gt;
-            {% else %}
-              &lt;img src=&quot;/assets/images/iaco-logo-share.jpg&quot; alt=&quot;{{ post.title }}&quot;&gt;
-            {% endif %}
+            &lt;img src=&quot;/assets/images/iaco-logo-share.jpg&quot; alt=&quot;{{ post.title }}&quot;&gt;
           {% endif %}
           {{ post.content | xml_escape }}
           &lt;p&gt;—&lt;/p&gt;&lt;p&gt;Full post and video 👉 {{ site.url }}{{ site.baseurl }}&lt;/p&gt;
@@ -37,13 +33,11 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
         {% if post.image %}
-          <media:thumbnail url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}"/>
         {% else %}
-          {% if post.video %}
-            <media:thumbnail url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg" />
-          {% else %}
-            <media:thumbnail url="/assets/images/iaco-logo-share.jpg" />
-          {% endif %}
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/images/iaco-logo-share.jpg" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="/assets/images/iaco-logo-share.jpg" />
         {% endif %}
       </item>
     {% endfor %}
