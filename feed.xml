@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -11,21 +11,10 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    <item>
-    <title>Test</title>
-    <description><p>Being our true authentic self is not that simple, but it all starts with self understanding, being vulnerable, acting with integrity and coherence 🙂</p></description>
-    <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-    <link>https://iaco.me/post/004/</link>
-    <guid isPermaLink="true">https://iaco.me/post/004/</guid>
-    <category>tgc</category>
-    <category>purpose</category>
-    <category>🧭 Purposeeeeeeee (future care)</category>
-    <itunes:image href="https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg"/>
-    </item>
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>{{ post.content | xml_escape }}<p>&nbsp;</p><p>Full post & video 👉 {{ site.url }}{{ site.baseurl }}</p></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
@@ -44,7 +33,6 @@ layout: null
             <media:thumbnail url="/assets/images/iaco-logo-share.jpg" />
           {% endif %}
         {% endif %}
-        <itunes:image href="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg"/>
       </item>
     {% endfor %}
   </channel>
