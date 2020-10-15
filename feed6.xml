@@ -27,7 +27,7 @@ layout: null
             &lt;img class=&quot;webfeedsFeaturedVisual&quot; src=&quot;/assets/images/iaco-logo-share.jpg&quot; alt=&quot;{{ post.title }}&quot;&gt;
           {% endif %}
           {{ post.content | xml_escape }}
-          &lt;p&gt;—&lt;/p&gt;&lt;p&gt;Full post and video 👉 &lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"&gt;{{ post.url | prepend: site.baseurl | prepend: site.url }}&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;—&lt;/p&gt;&lt;p&gt;Full post and video 👉 &lt;a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"&gt;LINK&lt;/a&gt;&lt;/p&gt;
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
