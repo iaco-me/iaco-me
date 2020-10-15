@@ -25,12 +25,12 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
         {% if post.image %}
-          <enclosure url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" length="78645" type="image/jpeg" />
+          <enclosure url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" length="100000" type="image/jpeg" />
         {% else %}
           {% if post.video %}
-          <enclosure url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg" length="78645" type="image/jpeg" />
+          <enclosure url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg" length="100000" type="image/jpeg" />
           {% else %}
-          <enclosure url="/assets/images/iaco-logo-share.jpg" length="78645" type="image/jpeg" />
+          <enclosure url="/assets/images/iaco-logo-share.jpg" length="100000" type="image/jpeg" />
           {% endif %}
         {% endif %}
       </item>
