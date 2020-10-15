@@ -14,10 +14,10 @@ layout: null
     <webfeeds:cover image="https://iaco.me/assets/images/iaco-logo-share-yt.jpg" />
     <webfeeds:icon>https://iaco.me/assets/images/safari-pinned-tab.svg</webfeeds:icon>
     <webfeeds:logo>https://iaco.me/assets/images/safari-pinned-tab.svg</webfeeds:logo>
-    <webfeeds:accentColor>ff2bfb</webfeeds:accentColor>
+    <webfeeds:accentColor>0EA2F1</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <webfeeds:analytics id="UA-158716451-1" engine="GoogleAnalytics"/>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:30 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
