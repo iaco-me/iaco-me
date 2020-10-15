@@ -11,8 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    <webfeeds:cover image="http://yoursite.com/a-large-cover-image.png" />
-    <webfeeds:icon>http://feedly.com/icon.svg</webfeeds:icon>
+    <webfeeds:cover image="http://iaco.me/assets/images/iaco-logo-share-yt.jpg" />
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
