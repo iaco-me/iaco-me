@@ -16,12 +16,12 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>
           {% if post.image %}
-            <media:content url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+            <media:content url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" />
           {% else %}
             {% if post.video %}
-              <media:content url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg">
+              <media:content url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg" />
             {% else %}
-              <media:content url="/assets/images/iaco-logo-share.jpg">
+              <media:content url="/assets/images/iaco-logo-share.jpg" />
             {% endif %}
           {% endif %}
           {{ post.content | xml_escape }}
@@ -36,12 +36,12 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
         {% if post.image %}
-          <media:thumbnail url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+          <media:thumbnail url="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" />
         {% else %}
           {% if post.video %}
-            <media:thumbnail url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg">
+            <media:thumbnail url="https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg" />
           {% else %}
-            <media:thumbnail url="/assets/images/iaco-logo-share.jpg">
+            <media:thumbnail url="/assets/images/iaco-logo-share.jpg" />
           {% endif %}
         {% endif %}
       </item>
