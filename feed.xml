@@ -11,6 +11,24 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    <item>
+    <title>Test</title>
+    <description>
+    <p>Being our true authentic self is not that simple, but it all starts with self understanding, being vulnerable, acting with integrity and coherence 🙂</p>
+    </description>
+    <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+    <link>https://iaco.me/post/003/</link>
+    <guid isPermaLink="true">https://iaco.me/post/003/</guid>
+    <category>tgc</category>
+    <category>purpose</category>
+    <category>integrity</category>
+    <category>coherence</category>
+    <category>authenticity</category>
+    <category>vulnerability</category>
+    <category>life</category>
+    <category>🧭 Purpose (future care)</category>
+    <itunes:image href="https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg"/>
+    </item>
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
