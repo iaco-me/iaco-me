@@ -85,7 +85,7 @@ permalink: /ctrl
 
       countUpFromTime("2018-06-28", 'gym', 'd', true);
       countUpFromTime("2019-02-28", 'vegan', 'd', true);
-      countUpFromTime("2020-09-14", 'sleepmaster', 'd', true);
+      countUpFromTime("2020-09-28", 'sleepmaster', 'd', true);
 
       countUpFromTime("2100-01-01", 'vivaci2100', 'w', true);
       countUpFromTime("2030-01-01", 'iaco2030', 'w', true);
