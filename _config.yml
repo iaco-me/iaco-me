@@ -10,6 +10,7 @@ google_analytics: 'UA-158716451-1'
 mailchimp-list: 'https://iaco.us18.list-manage.com/subscribe/post?u=82fec2178ac93f2d0f847d6fb&amp;id=61d5b52fe8'
 include: ["_pages"]
 permalink: /post/:title/
+future: false
 
 # Authors
 authors:
