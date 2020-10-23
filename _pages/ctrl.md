@@ -15,7 +15,7 @@ permalink: /ctrl
 <body>
     <ul>
         <li class='i-s'>
-            <a style="cursor: pointer;" onclick="document.location='https://www.timeanddate.com/calendar/custom.html?year='+new Date().getFullYear()+'&amp;country=5&amp;cols=0&amp;fdow=6&amp;wno=6&amp;wncs=2&amp;ctf=2&amp;wdf=1&amp;holmark=2&amp;hod=1&amp;hcl=1&amp;cdt=1&amp;ccg=1&amp;cci=6&amp;ccp=3&amp;ccu=10&amp;cwd=2______2&amp;cwf=______&amp;holm=1&amp;doy=1&amp;dly=1&amp;hid=1&amp;typ=0&amp;display=3&amp;df=1'">
+            <a style="cursor: pointer;" onclick="document.location='https://www.timeanddate.com/calendar/custom.html?year='+new Date().getFullYear()+'&amp;country=5&amp;cols=0&amp;fdow=6&amp;wno=6&amp;wncs=2&amp;ctf=2&amp;wdf=1&amp;holmark=2&amp;hod=1&amp;hcl=1&amp;cdt=1&amp;ccg=1&amp;cci=6&amp;ccp=3&amp;ccu=10&amp;ccz=0&amp;cwd=2______2&amp;cwf=______&amp;holm=1&amp;doy=1&amp;dly=1&amp;hid=1&amp;typ=0&amp;display=3&amp;df=1'">
                 <div class='logo'>
                     <i class='fas fa-history fa-2x'></i>
                 </div>
