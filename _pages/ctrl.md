@@ -129,12 +129,12 @@ permalink: /ctrl
         <a href="https://ticktick.com">
             <i class='far fa-check-circle fa-2x'></i>
         </a>
-        <!-- <a href="https://mail.ovh.net/roundcube/?_task=login">
+        <a href="https://mail.ovh.net/roundcube/?_task=login">
             <span class="fa-stack" style="vertical-align: top;">
                 <i class="fas fa-envelope fa-stack-2x"></i>
                 <i class="fas fa-info-circle fa-stack-1x" style="color: black"></i>
             </span>
-        </a> -->
+        </a>
         <a href="https://gmail.com">
             <span class="fa-stack" style="vertical-align: top;">
                 <i class="fas fa-envelope fa-stack-2x"></i>
