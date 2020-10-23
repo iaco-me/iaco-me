@@ -123,7 +123,8 @@ permalink: /ctrl
     </script>
 
     <hr style="max-width: 400px;">
-
+    
+    <!--
     <ul>
         <a href="https://ticktick.com">
             <i class='far fa-check-circle fa-2x'></i>
@@ -168,7 +169,8 @@ permalink: /ctrl
     </ul>
 
     <hr style="max-width: 400px;">
-
+    -->
+    
     <ul id="list"></ul>
 
     <script src="../config/jquery/jquery.min.js"></script>
