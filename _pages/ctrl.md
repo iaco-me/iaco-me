@@ -177,7 +177,7 @@ permalink: /ctrl
     <script>
         var links = [
             ["hi@iaco.me", "https://mail.ovh.net/roundcube/?_task=login", "fa fa-envelope"],
-            ["TASKS be1à0you", "https://docs.google.com/spreadsheets/d/1pX134g2Mze-CwYD6Qh1eGVbsqy6JZKh924BTdfAYXsI/edit?usp=sharing", "fa fa-mountain"],
+            ["TASKS be100you", "https://docs.google.com/spreadsheets/d/1pX134g2Mze-CwYD6Qh1eGVbsqy6JZKh924BTdfAYXsI/edit?usp=sharing", "fa fa-mountain"],
             ["VIVΛCI.LIFE Project", "https://vivaci.life", "far fa-heart"],
             ["iago-food-1w", "https://lite.framacalc.org/iago-food-1w", "fa fa-carrot"],
             ["10h20 <i class='fa fa-bus'></i> Condillac", "https://www.transisere.fr/fr/horaires-a-larret/28/StopSchedules/condillac-universites/30626/gieres-campus-montbonnot-bernin/80/bernin-montbonnot-saint-martin/1?Date=27%2F12%2F2018&PhysicalId=15279", "fa fa-briefcase"],
