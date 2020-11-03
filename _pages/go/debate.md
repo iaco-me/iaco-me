@@ -1,6 +1,6 @@
 ---
 layout: redirect
 title: Debate
-permalink: /debate
+permalink: /go/debate
 redirect: "https://thevegancalculator.com/"
 ---
