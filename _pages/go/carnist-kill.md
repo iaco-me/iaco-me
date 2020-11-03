@@ -1,6 +1,6 @@
 ---
 layout: redirect
 title: Carnist kill counter
-permalink: /carnist-kill
+permalink: /go/carnist-kill
 redirect: "https://thevegancalculator.com/animal-slaughter/"
 ---
