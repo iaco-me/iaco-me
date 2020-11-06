@@ -74,6 +74,10 @@ body {
   background-color: #000000;
 }
 
+.navbar {
+  padding: 0 .5rem !important;
+}
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
@@ -89,6 +93,11 @@ body {
   color: #161616;
   font-weight: 700;
   padding: .9rem 0;
+  font-size: .9rem !important;
+}
+
+#mainNav .navbar-nav {
+  flex-direction: row;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -118,8 +127,9 @@ body {
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: .5rem .3rem;
     color: rgba(255, 255, 255, 0.5);
+    border-bottom: 0.25rem solid transparent;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -141,7 +151,7 @@ body {
   }
   #mainNav.navbar-shrink .nav-link {
     color: var(--light);
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: .5rem .3rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
