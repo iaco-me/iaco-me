@@ -18,8 +18,8 @@ layout: null
     <webfeeds:related layout="card" target="browser"/>
     <webfeeds:analytics id="UA-158716451-1" engine="GoogleAnalytics"/>
     {% for post in site.posts limit:30 %}
-      {{% if post.hidden %}}
-      {{% else %}}
+      {% if post.hidden %}
+      {% else %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
