@@ -744,19 +744,25 @@ ul.tags li a:hover {
 }
 
 .h1,
+hi {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.8rem;
+}
+
 .h2,
 .h3,
 .h4,
 .h5,
 .h6,
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    border-left: gray solid 3px;
+    padding-left: 5px;
 }
 
 .article-post .h1,
