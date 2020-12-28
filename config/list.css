@@ -40,8 +40,8 @@ h2, h3 {
     text-align: center;
 }
 .author-photo img {
-    height: 100px;
-    max-width: 100px;
+    height: 150px;
+    max-width: 150px;
     border-radius: 50%;
     border: 5px solid #4481ca55;
     vertical-align: middle;
