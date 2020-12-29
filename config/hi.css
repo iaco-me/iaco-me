@@ -1,0 +1,157 @@
+body {
+    margin-top: 20px;
+    background: #111111;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/* SMALL */
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0;
+}
+
+.i-s {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+
+    text-align: left;
+    font: normal 14px sans-serif;
+
+    background: linear-gradient(to right, #3333cc, #4481ca);
+    /* border: 1px solid #bbbbbb; */
+    /* box-shadow: 0 2px 3px #bbbbbb; */
+    border-radius: 10px;
+
+    width: 260px;
+    margin: 10px;
+}
+
+.i-s .logo {
+    float: left;
+    padding: 15px 15px;
+}
+
+.i-s .logo img {
+    border-radius: 50%;
+    border: 0;
+}
+
+.i-s .title {
+    //white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0 10px 0;
+    //max-width: 150px;
+}
+
+.i-s .title {
+    font-weight: bold;
+}
+
+.i-s .title span {
+    /* display: block; */
+    font-size: 11px;
+    color: #bbbbbb;
+    padding-top: 5px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+    font-weight: normal;
+}
+
+
+
+/* BIG */
+
+.i-b {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: left;
+    background: linear-gradient(to left, #3333cc, #4481ca);
+    /* border: 1px solid #bbbbbb; */
+    /* box-shadow: 0 2px 3px #bbbbbb; */
+    border-radius: 10px;
+    overflow: hidden;
+
+    font: normal 13px sans-serif;
+
+    margin-bottom: 40px;
+    max-width: 575px;
+}
+
+/* Article photo */
+
+.i-b span {
+    float: left;
+    width: 200px;
+    height: 200px;
+    display: block;
+
+    background-size: cover;
+}
+
+.i-b a div {
+    float: left;
+    box-sizing: border-box;
+
+    max-width: 350px;
+    padding: 20px;
+}
+
+/* Article title */
+
+.i-b div h2 {
+    color: #ffffff
+    font-size: 16px;
+    overflow: hidden;
+    //text-overflow: ellipsis;
+    //white-space: nowrap;
+    max-height: 90px;
+    line-height: 28px;
+    margin: 0;
+}
+
+/* Article excerpt */
+
+.i-b div p {
+    line-height: 18px;
+    color: #bbbbbb;
+
+    overflow: hidden;
+    max-height: 60px;
+
+    margin: 10px 0 0 0;
+}
+
+@media (max-width: 600px) {
+
+    ul {
+        max-width: 300px;
+    }
+
+    .i-b span {
+        float: none;
+        width: 100%;
+        max-height: 200px;
+    }
+
+    .i-b a div {
+        padding: 10px;
+    }
+
+}
