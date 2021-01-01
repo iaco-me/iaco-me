@@ -4,7 +4,6 @@ title: SpeakEat
 permalink: /speakeat
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
