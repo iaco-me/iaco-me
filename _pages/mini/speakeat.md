@@ -91,9 +91,9 @@ permalink: /speakeat
                     <br><br>
                     💬 Le but du SpeakEat est d'encourager une conversation à propos des thèmes intéressants et actuels, toujours avec respect et bienveillance !
                     <br><br>
-                    🌍 Cet action est inspiré de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle
+                    🌍 Cette action est inspirée de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle
                     <br><br>
-                    😋 C'est une conversation au tour d'un petit repas, similaire au Free IC mais en visioconférence et avec des choses à grignoter
+                    😋 C'est une conversation autour d'un petit repas, similaire au Free IC mais en visioconférence et avec des choses à grignoter
                     <br><br>
                     🏳️ Nous démarrons la conversation de la table ronde avec un thème principal, lequel sera informé dans l'événement sur facebook (lien ci-dessus)
                     <br><br>
