@@ -59,7 +59,7 @@ permalink: /speakeat
     </ul>
     <ul>
         <li class="i-s">
-            <a href="https://fb.me/e/22LsWpVfa">
+            <a href="https://fb.me/e/1xI22hEIM">
                 <div class='logo'>
                     <i class='fab fa-facebook fa-2x'></i>
                 </div>
