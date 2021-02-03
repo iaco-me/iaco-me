@@ -13,7 +13,7 @@ permalink: /speakeat
     <link rel="stylesheet" href="../config/mini.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
+<body class="en">
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://instagram.com/speak.eat">
             <img src="../assets/images/speakeat-logo.png">
@@ -59,23 +59,55 @@ permalink: /speakeat
     </ul>
     <ul>
         <li class="i-s">
-            <a href="https://fb.me/e/1xI22hEIM">
+            <a href="https://fb.me/e/40NuP7blu">
                 <div class='logo'>
                     <i class='fab fa-facebook fa-2x'></i>
                 </div>
                 <p class='title'>
                     Event · Événement
                     <span>
-                        (recipe · recette, theme)
+                        (recipe · recette, theme · topic)
                     </span>
                 </p>
             </a>
         </li>
     </ul>
     <hr style="width: 100px;">
+    <span style="cursor: pointer; line-height: 8px; padding: 12px;" class="btn btn-primary js-scroll-trigger" onclick="document.body.className='en'">English</span>
+    <span style="cursor: pointer; line-height: 8px; padding: 12px;" class="btn btn-primary js-scroll-trigger" onclick="document.body.className='fr'">Français</span>
     <ul>
         <li class="i-s">
-            <a>
+            <a lang="en">
+                <p class='title' id="info" style="font-weight: normal; margin: 20px;">
+                    Salut 👋
+                    <br><br>
+                    ❇️ Bienvenue au SpeakEat, un projet Rotaract qui a le but de promouvoir l'échange de nos connaissances et expériences !
+                    <br><br>
+                    Notre planning du jour sera :<br>
+                    🥣 18h : atelier « cuisinons ensemble »<br>
+                    🗣 18h30 : début de l’échange au tour du thème principal
+                    <br><br>
+                    😋 Pour ceux qui auront faim, la recette plant-based du jour sera disponible dans la description de l'événement sur facebook (lien ci-dessus)
+                    <br><br>
+                    —
+                    <br><br>
+                    💬 Le but du SpeakEat est d'encourager une conversation à propos des thèmes intéressants et actuels, toujours avec respect et bienveillance !
+                    <br><br>
+                    🌍 Cette action est inspirée de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle
+                    <br><br>
+                    😋 C'est une conversation autour d'un petit repas, similaire au Free IC mais en visioconférence et avec des choses à grignoter
+                    <br><br>
+                    🏳️ Nous démarrons la conversation de la table ronde avec un thème principal, lequel sera informé dans l'événement sur facebook (lien ci-dessus)
+                    <br><br>
+                    —
+                    <br><br>
+                    🌐 Partagez l'événement à vos proches ! Toustes sont les bienvenu·e·s !
+                    <br><br>
+                    ⁉️ Si vous avez des questions ou suggestions, contactez les responsables du SpeakEat :<br>
+                    Iago Felipe Trentin (membre du Rotaract Grenoble-Dauphiné), Emiline Rioux (membre du Rotaract Voiron Chartreuse), ou Eleonora Patinot (membre du Rotaract Genève International)
+                </p>
+            </a>
+            <a id="fr">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Salut 👋
                     <br><br>
