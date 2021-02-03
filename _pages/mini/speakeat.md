@@ -66,15 +66,24 @@ permalink: /speakeat
                 <p class='title'>
                     Event · Événement
                     <span>
-                        (recipe · recette, theme · topic)
+                        (recipe · recette, topic · thème)
                     </span>
                 </p>
             </a>
         </li>
     </ul>
     <hr style="width: 100px;">
-    <span style="cursor: pointer; line-height: 8px; padding: 12px;" class="btn btn-primary js-scroll-trigger" onclick="document.body.className='en'">English</span>
-    <span style="cursor: pointer; line-height: 8px; padding: 12px;" class="btn btn-primary js-scroll-trigger" onclick="document.body.className='fr'">Français</span>
+    <ul>
+        <li class="i-v">
+            <a onclick="document.body.className='en'">
+                <p class='title'>
+                    English
+                </p>
+            </a>
+        </li>
+    </ul>
+    <span style="cursor: pointer;" class="btn btn-primary js-scroll-trigger" ></span>
+    <span style="cursor: pointer;" class="btn btn-primary js-scroll-trigger" onclick="document.body.className='fr'">Français</span>
     <ul>
         <li class="i-s">
             <a lang="en">
