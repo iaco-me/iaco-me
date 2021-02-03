@@ -13,7 +13,7 @@ permalink: /speakeat
     <link rel="stylesheet" href="../config/mini.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body class="en" id="bodytag">
+<body class="en">
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://instagram.com/speak.eat">
             <img src="../assets/images/speakeat-logo.png">
