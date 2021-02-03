@@ -76,14 +76,14 @@ permalink: /speakeat
     <ul>
         <li class="i-v">
             <a onclick="document.body.className='en'">
-                <p class='title' style="margin: 10px;">
+                <p class='title' style="margin: 10px; cursor: pointer;">
                     English
                 </p>
             </a>
         </li>
         <li class="i-v">
             <a onclick="document.body.className='fr'">
-                <p class='title' style="margin: 10px;">
+                <p class='title' style="margin: 10px; cursor: pointer;">
                     Français
                 </p>
             </a>
