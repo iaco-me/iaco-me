@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Time Management"
-author: iaco
+permalink: tutos/time
 categories: [  ] # activist, bodybuilder, healthy, influencer, minimalist, sporty, vegan, volunteer
 tags: [ ] # lifestyle, tgc, iaco, vivaci
 image: ../../assets/covers/influencer.jpg
@@ -10,8 +10,6 @@ image: ../../assets/covers/influencer.jpg
 # tweet: 1268973865746776068
 # tiktok: 6801989263727578373
 description: "IΛCO's shortcuts - Influencer Lifestyle"
-# featured: true
-hidden: true
 ---
 
 # Content Delivery Platforms
