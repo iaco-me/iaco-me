@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🧰 IΛCO Toolkits / 📲 Influencer Lifestyle"
+title:  "📲 Influencer Lifestyle / 🧰 IΛCO Toolkits"
 author: iaco
 categories: [  ] # activist, bodybuilder, healthy, influencer, minimalist, sporty, vegan, volunteer
 tags: [ ] # lifestyle, tgc, iaco, vivaci
