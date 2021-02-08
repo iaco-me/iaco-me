@@ -40,6 +40,7 @@ post_class: post-template
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
+                {% if page.subtitle %}<p class="postsubtitle">&mdash; {{ page.subtitle }}</p>{% endif %}
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
@@ -66,7 +67,6 @@ post_class: post-template
                     {% endif %}
                 {% endif %}
             {% endif %}
-            {% if page.subtitle %}<p class="postsubtitle">&mdash; {{ page.subtitle }}</p>{% endif %}
 
             <!-- End Featured Image -->
 
