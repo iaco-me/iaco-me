@@ -4,7 +4,7 @@ title:  "🧰 IΛCO Toolkits / 📲 Influencer Lifestyle"
 author: iaco
 categories: [  ] # activist, bodybuilder, healthy, influencer, minimalist, sporty, vegan, volunteer
 tags: [ ] # lifestyle, tgc, iaco, vivaci
-image: ../../assets/covers/toolkit-influencer.jpg
+image: ../../assets/covers/toolkit-influencer.png
 # video: oh_yZdOjuk0
 # igtv: CFfEsmlgqst
 # tweet: 1268973865746776068
