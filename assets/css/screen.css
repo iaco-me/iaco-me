@@ -366,10 +366,9 @@ span.post-read-more a:hover {
     margin-bottom: 1rem;
 }
 
-.postsubtitle {
+.mainheading .postsubtitle {
     font-weight: 300;
     opacity: 0.8;
-    margin-top: -1.5rem;
     margin-bottom: 1.5rem;
 }
 
