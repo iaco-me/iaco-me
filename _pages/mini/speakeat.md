@@ -173,13 +173,13 @@ permalink: /speakeat
     <ul>
         <li class="i-s">
             <p class='title' id="info" style="font-weight: normal; margin: 20px;">
-                (01) 🏳️‍🌈 LGBT+ <br> 2020-12-13 — <a href="https://fb.me/e/1L4njjV87"><i class='fab fa-facebook fa-2x'></i></a>
+                🏳️‍🌈 LGBT+ <br>— SpeakEat 01 &nbsp;&nbsp; 2020-12-13 &nbsp;&nbsp; <a href="https://fb.me/e/1L4njjV87"><i class='fab fa-facebook'></i></a>
                 <br><br>
-                (02) 👥 Discrimination <br> 2021-01-03 — <a href="https://fb.me/e/22LsWpVfa"><i class='fab fa-facebook fa-2x'></i></a>
+                👥 Discrimination <br>— SpeakEat 02 &nbsp;&nbsp; 2021-01-03 &nbsp;&nbsp; <a href="https://fb.me/e/22LsWpVfa"><i class='fab fa-facebook'></i></a>
                 <br><br>
-                (03) 🧠 Biais Cognitifs <br> 2021-01-31 — <a href="https://fb.me/e/1xI22hEIM"><i class='fab fa-facebook fa-2x'></i></a>
+                🧠 Biais Cognitifs <br>— SpeakEat 03 &nbsp;&nbsp; 2021-01-31 &nbsp;&nbsp; <a href="https://fb.me/e/1xI22hEIM"><i class='fab fa-facebook'></i></a>
                 <br><br>
-                (04) ♥️ Self-Love <br> 2021-02-14 — <a href="https://fb.me/e/40NuP7blu"><i class='fab fa-facebook fa-2x'></i></a>
+                ♥️ Self-Love <br>— SpeakEat 04 &nbsp;&nbsp; 2021-02-14 &nbsp;&nbsp; <a href="https://fb.me/e/40NuP7blu"><i class='fab fa-facebook'></i></a>
             </p>
         </li>
     </ul>
