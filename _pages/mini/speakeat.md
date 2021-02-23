@@ -60,7 +60,7 @@ permalink: /speakeat
     </ul>
     <ul>
         <li class="i-s">
-            <a href="https://fb.me/e/40NuP7blu">
+            <a href="https://www.facebook.com/speak.eat.page/events/">
                 <div class='logo'>
                     <i class='fab fa-facebook fa-2x'></i>
                 </div>
@@ -68,6 +68,21 @@ permalink: /speakeat
                     Event · Événement
                     <span>
                         (recipe · recette, topic · thème)
+                    </span>
+                </p>
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li class="i-s">
+            <a href="#topics">
+                <div class='logo'>
+                    <i class='fas fa-list-ol fa-2x'></i>
+                </div>
+                <p class='title'>
+                    List of Topics
+                    <span>
+                        Liste de Thèmes
                     </span>
                 </p>
             </a>
@@ -154,11 +169,26 @@ permalink: /speakeat
             </a>
         </li>
     </ul>
+    <hr style="width: 100px;">
+    <ul>
+        <li class="i-s">
+            <p class='title' id="info" style="font-weight: normal; margin: 20px;">
+                (01) 🏳️‍🌈 LGBT+ <br> 2020-12-13 — <a href="https://fb.me/e/1L4njjV87"><i class='fab fa-facebook fa-2x'></i></a>
+                <br><br>
+                (02) 👥 Discrimination <br> 2021-01-03 — <a href="https://fb.me/e/22LsWpVfa"><i class='fab fa-facebook fa-2x'></i></a>
+                <br><br>
+                (03) 🧠 Biais Cognitifs <br> 2021-01-31 — <a href="https://fb.me/e/1xI22hEIM"><i class='fab fa-facebook fa-2x'></i></a>
+                <br><br>
+                (04) ♥️ Self-Love <br> 2021-02-14 — <a href="https://fb.me/e/40NuP7blu"><i class='fab fa-facebook fa-2x'></i></a>
+            </p>
+        </li>
+    </ul>
 
     <br>
     <br>
 
     <center><script>document.write(new Date().getFullYear())</script> &copy; SpeakEat Rotaract</center>
+    <center><a href="https://business.facebook.com/speak.eat.page/events/admin">—</a></center>
 
     <br>
     <br>
