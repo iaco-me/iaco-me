@@ -179,7 +179,8 @@ permalink: /speakeat
                 <br><br>
                 🧠 Biais Cognitifs <br>— SpeakEat 03 &nbsp;&nbsp; 2021-01-31 &nbsp;&nbsp; <a href="https://fb.me/e/1xI22hEIM"><i class='fab fa-facebook'></i></a>
                 <br><br>
-                ♥️ Self-Love <br>— SpeakEat 04 &nbsp;&nbsp; 2021-02-14 &nbsp;&nbsp; <a href="https://fb.me/e/40NuP7blu"><i class='fab fa-facebook'></i></a>
+                ❤️ Self-Love <br>— SpeakEat 04 &nbsp;&nbsp; 2021-02-14 &nbsp;&nbsp; <a href="https://fb.me/e/40NuP7blu"><i class='fab fa-facebook'></i></a>
+                <br><br>
             </p>
         </li>
     </ul>
