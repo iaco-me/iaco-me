@@ -125,7 +125,7 @@ permalink: /speakeat
                     <br><br>
                     🌍 This project is inspired by the Rotaract and Rotary International cause of promoting peace to foster mutual understanding.
                     <br><br>
-                    😋 It's a conversation over a small meal, similar to Free IC but in videoconferencing and with snacks.
+                    😋 It's a conversation over a small meal, similar to Free IC but through videocall and with a snack.
                     <br><br>
                     🏳️ We start the roundtable conversation with a main topic, which will be informed in the event on facebook (link above).
                     <br><br>
@@ -147,17 +147,17 @@ permalink: /speakeat
                     🥣 18h : atelier « cuisinons ensemble »<br>
                     🗣 18h30 : début de l’échange au tour du thème principal
                     <br><br>
-                    😋 Pour ceux qui auront faim, la recette plant-based du jour sera disponible dans la description de l'événement sur facebook (lien ci-dessus)
+                    😋 Pour ceux qui auront faim, la recette plant-based du jour sera disponible dans la description de l'événement sur facebook (lien ci-dessus).
                     <br><br>
                     —
                     <br><br>
                     💬 Le but du SpeakEat est d'encourager une conversation à propos des thèmes intéressants et actuels, toujours avec respect et bienveillance !
                     <br><br>
-                    🌍 Cette action est inspirée de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle
+                    🌍 Cette action est inspirée de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle.
                     <br><br>
-                    😋 C'est une conversation autour d'un petit repas, similaire au Free IC mais en visioconférence et avec des choses à grignoter
+                    😋 C'est une conversation autour d'un petit repas, similaire au Free IC mais en visio et avec un goûter.
                     <br><br>
-                    🏳️ Nous démarrons la conversation de la table ronde avec un thème principal, lequel sera informé dans l'événement sur facebook (lien ci-dessus)
+                    🏳️ Nous démarrons la conversation de la table ronde avec un thème principal, lequel sera informé dans l'événement sur facebook (lien ci-dessus).
                     <br><br>
                     —
                     <br><br>
