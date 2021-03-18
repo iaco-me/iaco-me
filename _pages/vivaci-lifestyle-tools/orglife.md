@@ -38,7 +38,7 @@ permalink: /orglife
       id="iframe" style="width: 750px; max-width: 90vw; height: 600px; max-height: 90vh; border: 0; display: none;">
     </iframe>
     <br>
-    <audio src="zapsplat_nature_thunderstorm_close_windy_driving_rain_thunder_rumbles_and_light_cracks_57912.mp3"
+    <audio src="/assets/audio/rain.mp3"
       id="rain" autoplay loop>
     </audio>
     <script>var r=$('#rain')[0];r.play();</script>
