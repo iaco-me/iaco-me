@@ -9,7 +9,8 @@ permalink: /orglife
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="/config/jquery/jquery.min.js"></script>
   </head>
-  <body style="background-image: url('/assets/images/vivaci-bg/rain.gif'); background-size: cover;">
+  <body style="background-image: url('/assets/images/vivaci-bg/rain.gif'); background-size: cover;"
+        onclick="var r=$('#rain')[0];r.play();">
     <center>
     <div style="width: 750px; height: 23px; text-align: right;">
       <span
@@ -39,9 +40,9 @@ permalink: /orglife
     </iframe>
     <br>
     <audio src="/assets/audio/rain.mp3"
-      id="rain" autoplay loop>
+      id="rain" autoplay muted playsinline loop>
     </audio>
-    <script>var r=$('#rain')[0];r.play();</script>
+    <script>var r=$('#rain')[0];r.muted = false;r.play();</script>
     </center>
   </body>
 </html>
