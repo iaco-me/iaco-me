@@ -7,7 +7,7 @@ permalink: /orglife
 <html>
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script src="jquery.min.js"></script>
+    <script src="/config/jquery/jquery.min.js"></script>
   </head>
   <body style="background-image: url('c2445dd759cf52be7e37d294c62d730e.gif'); background-size: cover;">
     <center>
