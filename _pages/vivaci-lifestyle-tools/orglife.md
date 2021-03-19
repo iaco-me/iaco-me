@@ -16,7 +16,7 @@ permalink: /orglife
       <span
         onclick="$('.bar').toggle();var h=$('#hide-button');h.toggleClass('fa-chevron-right');h.toggleClass('fa-chevron-left');"
         style="color: gray;">
-        <span is="intro-text" style="font-family: tahoma; font-size: 10px;">THIS IS YOUR SAFE SPACE&nbsp;</span>
+        <span id="intro-text" style="font-family: tahoma; font-size: 10px;">THIS IS YOUR SAFE SPACE&nbsp;</span>
         <i id="hide-button" class="fas fa-chevron-left fa-xs"></i>
       </span>
       <span class="bar"
