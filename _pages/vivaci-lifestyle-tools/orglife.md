@@ -31,7 +31,7 @@ permalink: /orglife
       <span class="bar"
         onclick="var r=$('#rain')[0];r.paused ? r.play() : r.pause();"
         style="color: gray; display: none;">
-        <i class="fas fa-cloud-itunes-note fa-xs"></i>
+        <i class="fab fa-itunes-note fa-xs"></i>
       </span>
     </div>
     <iframe
