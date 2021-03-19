@@ -23,7 +23,7 @@ permalink: /orglife
         onclick=""
         style="color: gray; display: none;">
         &nbsp;&nbsp;&nbsp;
-        <i class="fas fa-sticky-note fa-xs"></i>
+        <i class="far fa-sticky-note fa-xs"></i>
       </span>
       <span class="bar"
         onclick=""
