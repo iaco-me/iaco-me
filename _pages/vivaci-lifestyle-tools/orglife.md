@@ -20,8 +20,35 @@ permalink: /orglife
         <i id="hide-button" class="fas fa-chevron-left fa-xs"></i>
       </span>
       <span class="bar"
+        onclick=""
+        style="color: gray; display: none;">
+        &nbsp;&nbsp;&nbsp;
+        <i class="fas fa-sticky-note fa-xs"></i>
+      </span>
+      <span class="bar"
+        onclick=""
+        style="color: gray; display: none;">
+        <i class="fas fa-tasks fa-xs"></i>
+      </span>
+      <span class="bar"
+        onclick=""
+        style="color: gray; display: none;">
+        <i class="fas fa-rocket fa-xs"></i>
+      </span>
+      <span class="bar"
+        onclick=""
+        style="color: gray; display: none;">
+        <i class="fas fa-mountain fa-xs"></i>
+      </span>
+      <span class="bar"
+        onclick=""
+        style="color: gray; display: none;">
+        <i class="fas fa-pen-fancy fa-xs"></i>
+      </span>
+      <span class="bar"
         onclick="var i=$('#iframe');if(i.width()==750){i.width('1000px');i.height('700px');}else{if(i.width()==1000){i.width('1200px');i.height('800px');}else{i.width('750px');i.height('600px');}}"
         style="color: gray; display: none;">
+        &nbsp;&nbsp;&nbsp;
         <i class="fas fa-expand fa-xs"></i>
       </span>
       <span class="bar"
