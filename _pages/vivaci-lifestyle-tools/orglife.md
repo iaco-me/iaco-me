@@ -13,16 +13,9 @@ permalink: /orglife
   <body style="background-image: url('/assets/images/vivaci-bg/rain.gif'); background-size: cover;">
     <center>
     <div style="width: 750px; height: 23px; text-align: right;">
-      <span
-        onclick="$('.bar').toggle();var h=$('#hide-button');h.toggleClass('fa-chevron-right');h.toggleClass('fa-chevron-left');"
-        style="color: gray;">
-        <span id="intro-text" style="font-family: tahoma; font-size: 10px;">THIS IS YOUR SAFE SPACE&nbsp;</span>
-        <i id="hide-button" class="fas fa-chevron-left fa-xs"></i>
-      </span>
       <span class="bar"
         onclick=""
         style="color: gray; display: none;">
-        &nbsp;&nbsp;&nbsp;
         <i class="far fa-sticky-note fa-xs"></i>
       </span>
       <span class="bar"
@@ -60,6 +53,13 @@ permalink: /orglife
         onclick="var r=$('#rain')[0];r.paused ? r.play() : r.pause();"
         style="color: gray; display: none;">
         <i class="fab fa-itunes-note fa-xs"></i>
+      </span>
+      <span
+        onclick="$('.bar').toggle();var h=$('#hide-button');h.toggleClass('fa-chevron-right');h.toggleClass('fa-chevron-left');"
+        style="color: gray;">
+        &nbsp;&nbsp;&nbsp;
+        <span id="intro-text" style="font-family: tahoma; font-size: 10px;">THIS IS YOUR SAFE SPACE&nbsp;</span>
+        <i id="hide-button" class="fas fa-chevron-left fa-xs"></i>
       </span>
     </div>
     <iframe
