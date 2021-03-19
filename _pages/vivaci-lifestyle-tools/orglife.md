@@ -24,9 +24,9 @@ permalink: /orglife
         <i class="fas fa-expand fa-xs"></i>
       </span>
       <span class="bar"
-        onclick="var i=$('#iframe');i.width('750px');i.height('600px');i.toggle();"
+        onclick="var i=$('#iframe');i.toggle();"
         style="color: gray; display: none;">
-        <i class="far fa-circle fa-xs"></i>
+        <i class="far fa-power-off fa-xs"></i>
       </span>
       <span class="bar"
         onclick="var r=$('#rain')[0];r.paused ? r.play() : r.pause();"
