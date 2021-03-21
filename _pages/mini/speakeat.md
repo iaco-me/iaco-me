@@ -36,9 +36,9 @@ permalink: /speakeat
                 </div>
                 <p class='title'>
                     Videocall · Visio
-                    <span>
-                        18h-20h, Sunday · Dimanche
-                    </span>
+                    <span>Sunday · Dimanche · Domingo</span>
+                    <span>14-16h UTC&minus;3 (BR🇧🇷)</span>
+                    <span>18-20h UTC+1 (Central EU🇪🇺)</span>
                 </p>
             </a>
         </li>
