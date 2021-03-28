@@ -109,15 +109,15 @@ permalink: /speakeat
         <li class="i-s">
             <a lang="en">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
-                    Hello 👋
+                    Hello 😉
                     <br><br>
-                    ❇️ Welcome to SpeakEat, a Rotaract project that aims to promote the exchange of our knowledge and experiences!
+                    ❇️ Welcome to SpeakEat, a Rotaract project that aims to promote the exchange of our knowledge and personal experiences!
                     <br><br>
-                    Our schedule for the day will be:<br>
-                    🥣 18h: let's cook together<br>
-                    🗣 18h30: start of the exchange around the main topic
+                    We will have 2 hours together, as follows:<br>
+                    👋 00:30 let's get to know each other<br>
+                    🗣 01:30 exchange around the main topic
                     <br><br>
-                    😋 For those who will be hungry, the plant-based recipe of the day will be available in the description of the event on facebook (link above).
+                    🍓 If you will eat, you can share your plant-based recipe with us all during the "get to know each other" moment (first 30 minutes).
                     <br><br>
                     —
                     <br><br>
@@ -125,9 +125,9 @@ permalink: /speakeat
                     <br><br>
                     🌍 This project is inspired by the Rotaract and Rotary International cause of promoting peace to foster mutual understanding.
                     <br><br>
-                    😋 It's a conversation over a small meal, similar to Free IC but through videocall and with a snack.
+                    😋 It's a conversation over a small meal, similar to "Free IC" but through videocall and with a plant-based snack.
                     <br><br>
-                    🏳️ We start the roundtable conversation with a main topic, which will be informed in the event on facebook (link above).
+                    🏳️ We start the roundtable with a main topic, and the participants will decide how we will move the conversation forward.
                     <br><br>
                     —
                     <br><br>
@@ -139,15 +139,15 @@ permalink: /speakeat
             </a>
             <a lang="fr">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
-                    Salut 👋
+                    Salut 😉
                     <br><br>
-                    ❇️ Bienvenue au SpeakEat, un projet Rotaract qui a le but de promouvoir l'échange de nos connaissances et expériences !
+                    ❇️ Bienvenue au SpeakEat, un projet Rotaract qui a le but de promouvoir l'échange de nos connaissances et nos expériences personnelles !
                     <br><br>
-                    Notre planning du jour sera :<br>
-                    🥣 18h : atelier « cuisinons ensemble »<br>
-                    🗣 18h30 : début de l’échange au tour du thème principal
+                    Nous aurons 2 heures ensemble, comme suit :<br>
+                    👋 00:30 faisons connaissance<br>
+                    🗣 01:30 échange autour du thème principal
                     <br><br>
-                    😋 Pour ceux qui auront faim, la recette plant-based du jour sera disponible dans la description de l'événement sur facebook (lien ci-dessus).
+                    🍓 Si vous allez manger, vous pouvez partager votre recette plant-based avec nous tous pendant le moment "faisons connaissance" (30 premières minutes).
                     <br><br>
                     —
                     <br><br>
@@ -155,9 +155,9 @@ permalink: /speakeat
                     <br><br>
                     🌍 Cette action est inspirée de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle.
                     <br><br>
-                    😋 C'est une conversation autour d'un petit repas, similaire au Free IC mais en visio et avec un goûter.
+                    😋 C'est une conversation autour d'un petit repas, similaire au "Free IC" mais en visio et avec un goûter plant-based.
                     <br><br>
-                    🏳️ Nous démarrons la conversation de la table ronde avec un thème principal, lequel sera informé dans l'événement sur facebook (lien ci-dessus).
+                    🏳️ Nous démarrons la table ronde avec un thème principal, et les participants décideront de la manière dont nous ferons avancer la conversation.
                     <br><br>
                     —
                     <br><br>
@@ -182,6 +182,8 @@ permalink: /speakeat
                 ❤️ Self-Love <br> — SpeakEat 04 &nbsp;&nbsp; 2021-02-14 &nbsp;&nbsp; <a href="https://fb.me/e/40NuP7blu"><i class='fab fa-facebook'></i></a>
                 <br><br>
                 💼 Wellbeing at Work <br> — SpeakEat 05 &nbsp;&nbsp; 2021-03-21 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events/"><i class='fab fa-facebook'></i></a>
+                <br><br>
+                🌐 Climate Change <br> — SpeakEat 06 &nbsp;&nbsp; 2021-04-25 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events/"><i class='fab fa-facebook'></i></a>
             </p>
         </li>
     </ul>
