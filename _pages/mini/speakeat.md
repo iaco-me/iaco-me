@@ -93,21 +93,21 @@ permalink: /speakeat
         <li class="i-v">
             <a onclick="document.body.className='en'">
                 <p class='title' style="margin: 10px; cursor: pointer;">
-                    English
+                    &nbsp;EN&nbsp;
                 </p>
             </a>
         </li>
         <li class="i-v">
             <a onclick="document.body.className='fr'">
                 <p class='title' style="margin: 10px; cursor: pointer;">
-                    Français
+                    &nbsp;FR&nbsp;
                 </p>
             </a>
         </li>
         <li class="i-v">
             <a onclick="document.body.className='pt'">
                 <p class='title' style="margin: 10px; cursor: pointer;">
-                    Português
+                    &nbsp;PT&nbsp;
                 </p>
             </a>
         </li>
