@@ -118,23 +118,21 @@ permalink: /speakeat
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Hello 😉
                     <br><br>
-                    ❇️ Welcome to SpeakEat, a Rotaract project that aims to promote the exchange of our knowledge and personal experiences!
+                    ❇️ Welcome to SpeakEat, a Rotaract project aiming to promote the exchange of knowledge and experiences!
                     <br><br>
-                    We will have 2 hours together, as follows:<br>
-                    👋 00:30 let's get to know each other<br>
-                    🗣 01:30 exchange around the main topic
+                    👥 We will have 2 hours together, we will get to know each other and exchange around the main topic.
                     <br><br>
-                    🍓 If you will eat, you can share your plant-based recipe with us all during the "get to know each other" moment (first 30 minutes).
+                    🍓 If you will eat, you can share your plant-based recipe with us all when you present yourself.
                     <br><br>
                     —
                     <br><br>
-                    💬 The aim of SpeakEat is to encourage a conversation about interesting and current topics, always with respect and goodwill!
+                    💬 The aim of SpeakEat is to encourage conversation about important topics, with respect and goodwill!
                     <br><br>
-                    🌍 This project is inspired by the Rotaract and Rotary International cause of promoting peace to foster mutual understanding.
+                    🌍 It is inspired by the Rotary International cause of promoting peace to foster mutual understanding.
                     <br><br>
                     😋 It's a conversation over a small meal, similar to "Free IC" but through videocall and with a plant-based snack.
                     <br><br>
-                    🏳️ We start the roundtable with a main topic, and the participants will decide how we will move the conversation forward.
+                    🏳️ We start with the main topic, and the participants decide how we will move the conversation forward.
                     <br><br>
                     —
                     <br><br>
@@ -148,23 +146,21 @@ permalink: /speakeat
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Salut 😉
                     <br><br>
-                    ❇️ Bienvenue au SpeakEat, un projet Rotaract qui a le but de promouvoir l'échange de nos connaissances et nos expériences personnelles !
+                    ❇️ Bienvenue au SpeakEat, un projet Rotaract visant à promouvoir l'échange de connaissances et d'expériences !
                     <br><br>
-                    Nous aurons 2 heures ensemble, comme suit :<br>
-                    👋 00:30 faisons connaissance<br>
-                    🗣 01:30 échange autour du thème principal
+                    👥 Nous aurons 2 heures ensemble, nous apprendrons à nous connaître et à échanger autour du thème principal.
                     <br><br>
-                    🍓 Si vous allez manger, vous pouvez partager votre recette plant-based avec nous tous pendant le moment "faisons connaissance" (30 premières minutes).
+                    🍓 Si vous voulez manger, vous pouvez partager votre recette plant-based avec nous tous lorsque vous vous présenterez.
                     <br><br>
                     —
                     <br><br>
-                    💬 Le but du SpeakEat est d'encourager une conversation à propos des thèmes intéressants et actuels, toujours avec respect et bienveillance !
+                    💬 Le but de SpeakEat est d'encourager la conversation sur des sujets importants, dans le respect et la bienveillance !
                     <br><br>
-                    🌍 Cette action est inspirée de l'axe du Rotaract et Rotary International de promotion de la paix pour favoriser la compréhension mutuelle.
+                    🌍 L'action s'inspire de l'axe du Rotary International de promotion de la paix pour favoriser la compréhension mutuelle.
                     <br><br>
-                    😋 C'est une conversation autour d'un petit repas, similaire au "Free IC" mais en visio et avec un goûter plant-based.
+                    😋 C'est une conversation autour d'un petit repas, similaire à "Free IC" mais en visio et avec un goûter plant-based.
                     <br><br>
-                    🏳️ Nous démarrons la table ronde avec un thème principal, et les participants décideront de la manière dont nous ferons avancer la conversation.
+                    🏳️ Nous démarrons par le thème principal, et les participants décident comment nous allons faire avancer la conversation.
                     <br><br>
                     —
                     <br><br>
@@ -176,7 +172,30 @@ permalink: /speakeat
             </a>
             <a lang="pt">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
-                    Oi 😉 Ainda não tive tempo de traduzir ;) Obrigado!
+                    Olá 😉
+                    <br><br>
+                    ❇️ Bem-vindo ao SpeakEat, projeto do Rotaract que visa promover a troca de conhecimentos e experiências!
+                    <br><br>
+                    👥 Teremos 2 horas juntos, para nos conhecermos e conversarmos sobre o tema principal.
+                    <br><br>
+                    🍓 Se você comer conosco, poderá compartilhar a sua receita plant-based no momento em que se apresentar.
+                    <br><br>
+                    —
+                    <br><br>
+                    💬 O objetivo do SpeakEat é incentivar a conversa sobre temas importantes, com respeito e boa vontade!
+                    <br><br>
+                    🌍 Ele é inspirado na causa do Rotary International de promover a paz para fomentar a compreensão mútua.
+                    <br><br>
+                    😋 É uma conversa com comida, semelhante ao "Free IC", mas em videochamada e com um lanche plant-based.
+                    <br><br>
+                    🏳️ Começamos com o tema principal, e os participantes decidem como vamos avançar a conversa.
+                    <br><br>
+                    —
+                    <br><br>
+                    🌐 Compartilhe o evento com seus amigos e familiares! Todes são bem-vindes!
+                    <br><br>
+                    ⁉️ Se você tiver alguma dúvida ou sugestão, pode entrar em contato com:<br>
+                    Iago Felipe Trentin (membro do Rotaract Grenoble-Dauphiné), ou Emiline Rioux (membro do Rotaract Voiron Chartreuse), ou Eleonora Patinot (membro do Rotaract Genève International).
                 </p>
             </a>
         </li>
