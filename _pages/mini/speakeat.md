@@ -35,10 +35,10 @@ permalink: /speakeat
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>
                 <p class='title'>
-                    Videocall · Visio
+                    Videocall · Visio (2h)
                     <span>Sunday · Dimanche · Domingo</span>
-                    <span>14-16h UTC&minus;3 (BR 🇧🇷)</span>
-                    <span>18-20h UTC+1 (Central EU 🇪🇺)</span>
+                    <span>14h UTC&minus;3 (BR 🇧🇷)</span>
+                    <span>19h UTC+2 (Central EU 🇪🇺 *summer)</span>
                 </p>
             </a>
         </li>
