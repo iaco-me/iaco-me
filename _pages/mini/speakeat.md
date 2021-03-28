@@ -35,10 +35,10 @@ permalink: /speakeat
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>
                 <p class='title'>
-                    Videocall · Visio (2h)
+                    Videocall · Visio
                     <span>Sunday · Dimanche · Domingo</span>
                     <span>14h UTC&minus;3 (BR 🇧🇷)</span>
-                    <span>19h UTC+2 (Central EU 🇪🇺 *summer)</span>
+                    <span>19h UTC+2 (EU 🇪🇺 *summer)</span>
                 </p>
             </a>
         </li>
@@ -65,9 +65,9 @@ permalink: /speakeat
                     <i class='fab fa-facebook fa-2x'></i>
                 </div>
                 <p class='title'>
-                    Event · Événement
+                    Facebook (next topic)
                     <span>
-                        (recipe · recette, topic · thème)
+                        (prochain thème · próximo tema)
                     </span>
                 </p>
             </a>
@@ -82,7 +82,7 @@ permalink: /speakeat
                 <p class='title'>
                     List of Topics
                     <span>
-                        Liste de Thèmes
+                        Liste de Thèmes · Lista de Temas
                     </span>
                 </p>
             </a>
@@ -101,6 +101,13 @@ permalink: /speakeat
             <a onclick="document.body.className='fr'">
                 <p class='title' style="margin: 10px; cursor: pointer;">
                     Français
+                </p>
+            </a>
+        </li>
+        <li class="i-v">
+            <a onclick="document.body.className='pt'">
+                <p class='title' style="margin: 10px; cursor: pointer;">
+                    Português
                 </p>
             </a>
         </li>
@@ -165,6 +172,11 @@ permalink: /speakeat
                     <br><br>
                     ⁉️ Si vous avez des questions ou suggestions, contactez les responsables du SpeakEat :<br>
                     Iago Felipe Trentin (membre du Rotaract Grenoble-Dauphiné), Emiline Rioux (membre du Rotaract Voiron Chartreuse), ou Eleonora Patinot (membre du Rotaract Genève International)
+                </p>
+            </a>
+            <a lang="pt">
+                <p class='title' id="info" style="font-weight: normal; margin: 20px;">
+                    Oi 😉 Ainda não tive tempo de traduzir ;) Obrigado!
                 </p>
             </a>
         </li>
