@@ -65,9 +65,9 @@ permalink: /speakeat
                     <i class='fab fa-facebook fa-2x'></i>
                 </div>
                 <p class='title'>
-                    Facebook (next topic)
+                    Facebook (next SpeakEat)
                     <span>
-                        (prochain thème · próximo tema)
+                        (prochain · próximo SpeakEat)
                     </span>
                 </p>
             </a>
