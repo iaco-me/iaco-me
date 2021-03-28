@@ -174,7 +174,7 @@ permalink: /speakeat
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Olá 😉
                     <br><br>
-                    ❇️ Bem-vindo ao SpeakEat, projeto do Rotaract que visa promover a troca de conhecimentos e experiências!
+                    ❇️ Bem-vinde ao SpeakEat, projeto do Rotaract que visa promover a troca de conhecimentos e experiências!
                     <br><br>
                     👥 Teremos 2 horas juntos, para nos conhecermos e conversarmos sobre o tema principal.
                     <br><br>
