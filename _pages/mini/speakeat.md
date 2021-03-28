@@ -38,7 +38,7 @@ permalink: /speakeat
                     Videocall · Visio
                     <span>Sunday · Dimanche · Domingo</span>
                     <span>14h UTC&minus;3 (BR 🇧🇷)</span>
-                    <span>19h UTC+2 (EU 🇪🇺 *summer)</span>
+                    <span>19h UTC+2 (EU 🇪🇺)</span>
                 </p>
             </a>
         </li>
