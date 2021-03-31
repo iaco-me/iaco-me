@@ -130,7 +130,7 @@ permalink: /speakeat
                     <br><br>
                     🌍 It is inspired by the Rotary International cause of promoting peace to foster mutual understanding.
                     <br><br>
-                    😋 It's a conversation over a small meal, similar to "Free IC" but through videocall and with a plant-based snack.
+                    😋 It's a conversation similar to Free IC/Vegan Party, but by videocall and with a plant-based snack.
                     <br><br>
                     🏳️ We start with the main topic, and the participants decide how we will move the conversation forward.
                     <br><br>
@@ -158,7 +158,7 @@ permalink: /speakeat
                     <br><br>
                     🌍 L'action s'inspire de l'axe du Rotary International de promotion de la paix pour favoriser la compréhension mutuelle.
                     <br><br>
-                    😋 C'est une conversation autour d'un petit repas, similaire à "Free IC" mais en visio et avec un goûter plant-based.
+                    😋 C'est une conversation similaire à Free IC/Vegan Party, mais en visio et avec un petit repas plant-based.
                     <br><br>
                     🏳️ Nous démarrons par le thème principal, et les participants décident comment nous allons faire avancer la conversation.
                     <br><br>
@@ -186,7 +186,7 @@ permalink: /speakeat
                     <br><br>
                     🌍 Ele é inspirado na causa do Rotary International de promover a paz para fomentar a compreensão mútua.
                     <br><br>
-                    😋 É uma conversa com comida, semelhante ao "Free IC", mas em videochamada e com um lanche plant-based.
+                    😋 É uma conversa semelhante ao Free IC/Vegan Party, mas em videochamada e com um lanche plant-based.
                     <br><br>
                     🏳️ Começamos com o tema principal, e os participantes decidem como vamos avançar a conversa.
                     <br><br>
