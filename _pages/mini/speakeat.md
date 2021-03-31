@@ -120,7 +120,7 @@ permalink: /speakeat
                     <br><br>
                     ❇️ Welcome to SpeakEat, a Rotaract project aiming to promote the exchange of knowledge and experiences!
                     <br><br>
-                    👥 We will have 2 hours together, we will get to know each other and exchange around the main topic.
+                    👥 We will have 2 hours together to get to know each other and exchange around the main topic.
                     <br><br>
                     🍓 If you will eat, you can share your plant-based recipe with us all when you present yourself.
                     <br><br>
@@ -148,7 +148,7 @@ permalink: /speakeat
                     <br><br>
                     ❇️ Bienvenue au SpeakEat, un projet Rotaract visant à promouvoir l'échange de connaissances et d'expériences !
                     <br><br>
-                    👥 Nous aurons 2 heures ensemble, nous apprendrons à nous connaître et à échanger autour du thème principal.
+                    👥 Nous aurons 2 heures ensemble pour apprendre à nous connaître et échanger autour du thème principal.
                     <br><br>
                     🍓 Si vous voulez manger, vous pouvez partager votre recette plant-based avec nous tous lorsque vous vous présenterez.
                     <br><br>
@@ -176,7 +176,7 @@ permalink: /speakeat
                     <br><br>
                     ❇️ Bem-vinde ao SpeakEat, projeto do Rotaract que visa promover a troca de conhecimentos e experiências!
                     <br><br>
-                    👥 Teremos 2 horas juntos, para nos conhecermos e conversarmos sobre o tema principal.
+                    👥 Nós teremos 2 horas juntos para nos conhecer e conversar sobre o tema principal.
                     <br><br>
                     🍓 Se você comer conosco, poderá compartilhar a sua receita plant-based no momento em que se apresentar.
                     <br><br>
