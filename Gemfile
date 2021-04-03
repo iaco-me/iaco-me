@@ -16,6 +16,7 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
     gem 'github-pages'
-    gem 'kramdown'
+    gem "kramdown", ">= 2.3.1"
     gem 'rouge'
+    gem "nokogiri", ">= 1.11.0"
 end
