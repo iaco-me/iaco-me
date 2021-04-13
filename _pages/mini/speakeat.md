@@ -78,10 +78,10 @@ permalink: /speakeat
         var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
 
         var title = "SpeakEat Rotaract";
-        var link = "https%3A%2F%2Ftinyurl.com%2Fspeakeat-link"
+        var link = "https://tinyurl.com/speakeat-link"
         var description = "Details and videocall link: " + link;
 
-        var titleEncoded = escape(subject);
+        var titleEncoded = escape(title);
         var linkEncoded = escape(link);
         var descriptionEncoded = escape(description);
 
@@ -95,7 +95,7 @@ permalink: /speakeat
 
         var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
 
-        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//www.iaco.me//EN\nBEGIN:VEVENT\n" + /*UID:me@google.com\n*/ "DTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nURL:" + link + "\nDESCRIPTION:" + description + "\nTRANSP:OPAQUE\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:" + title + "\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR";
+        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//www.iaco.me//EN\nBEGIN:VEVENT\nUID:" + dateStartGoogle + "hi@iaco.me\nDTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nURL:" + link + "\nDESCRIPTION:" + description + "\nTRANSP:OPAQUE\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:" + title + "\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR";
     </script>
     <ul>
         <li class="i-s">
