@@ -11,13 +11,13 @@ permalink: /speakeat
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SpeakEat</title>
-    <link rel="stylesheet" href="../config/mini.css">
+    <link rel="stylesheet" href="../../config/mini.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body class="en">
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://instagram.com/speak.eat">
-            <img src="../assets/images/speakeat-logo.png">
+            <img src="../../assets/images/speakeat-logo.png">
             <br>
             @speak.eat
             <br>
@@ -69,6 +69,64 @@ permalink: /speakeat
                     <span>
                         (prochain · próximo SpeakEat)
                     </span>
+                </p>
+            </a>
+        </li>
+    </ul>
+    <script>
+        var start = {y: "2021",  m: "04",    d: "25",    h: "17", min: "00"};
+        var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
+
+        var title = "SpeakEat%20Rotaract";
+        var link = "https%3A%2F%2Ftinyurl.com%2Fspeakeat-link";
+        var description = "Details%20and%20videocall%20link%3A%0A" + link;
+
+        var dateStartGoogle = start.y + start.m + start.d + "T" + start.h + start.min;
+        var dateEndGoogle = end.y + end.m + end.d + "T" + end.h + end.min;
+        var urlGoogle = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=" + dateStartGoogle + "00Z%2F" + dateEndGoogle + "00Z&details=" + description + "&text=" + title;
+
+        var dateStartOutlook = start.y + "-" + start.m + "-" + start.d + "T" + start.h + "%3A" + start.min;
+        var dateEndOutlook = end.y + "-" + end.m + "-" + end.d + "T" + end.h + "%3A" + end.min;
+        var urlOutlook = "https://outlook.live.com/calendar/0/deeplink/compose?body=" + description + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + title;
+
+        var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + description + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + title;
+
+        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Our Company//NONSGML v1.0//EN\nBEGIN:VEVENT\nUID:me@google.com\nDTSTAMP:" + dateStartGoogle + "00Z\nATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO::me@gmail.com\nDTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nEND:VEVENT\nEND:VCALENDAR";
+    </script>
+    <ul>
+        <li class="i-s">
+            <a onclick='window.open("data:text/calendar;charset=utf8," + escape(icsFile));' target="_blank" style="cursor: pointer;">
+                <div class='logo'>
+                    <i class='far fa-calendar-plus fa-2x'></i>
+                </div>
+                <p class='title'>
+                    Add to Your Calendar
+                    <span>
+
+                    </span>
+                </p>
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li class="i-v" style="margin: 8px;">
+            <a onclick="window.open(urlGoogle);" target="_blank">
+                <p class='title' style="margin: 10px; cursor: pointer;">
+                    Google
+                </p>
+            </a>
+        </li>
+        <li class="i-v" style="margin: 8px;">
+            <a onclick="window.open(urlOutlook);" target="_blank">
+                <p class='title' style="margin: 10px; cursor: pointer;">
+                    Outlook
+                </p>
+            </a>
+        </li>
+        <li class="i-v" style="margin: 8px;">
+            <a onclick="window.open(urlOffice);" target="_blank">
+                <p class='title' style="margin: 10px; cursor: pointer;">
+                    Office 365
                 </p>
             </a>
         </li>
