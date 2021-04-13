@@ -77,26 +77,29 @@ permalink: /speakeat
         var start = {y: "2021",  m: "04",    d: "25",    h: "17", min: "00"};
         var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
 
-        var subject = "SpeakEat Rotaract";
-        var title = "SpeakEat%20Rotaract";
-        var link = "https%3A%2F%2Ftinyurl.com%2Fspeakeat-link";
-        var description = "Details%20and%20videocall%20link%3A%0A" + link;
+        var title = "SpeakEat Rotaract";
+        var link = "https%3A%2F%2Ftinyurl.com%2Fspeakeat-link"
+        var description = "Details and videocall link: " + link;
+
+        var titleEncoded = encodeURIComponent(subject);
+        var linkEncoded = encodeURIComponent(link);
+        var descriptionEncoded = encodeURIComponent(description);
 
         var dateStartGoogle = start.y + start.m + start.d + "T" + start.h + start.min;
         var dateEndGoogle = end.y + end.m + end.d + "T" + end.h + end.min;
-        var urlGoogle = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=" + dateStartGoogle + "00Z%2F" + dateEndGoogle + "00Z&details=" + description + "&text=" + title;
+        var urlGoogle = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=" + dateStartGoogle + "00Z%2F" + dateEndGoogle + "00Z&details=" + descriptionEncoded + "&text=" + titleEncoded;
 
         var dateStartOutlook = start.y + "-" + start.m + "-" + start.d + "T" + start.h + "%3A" + start.min;
         var dateEndOutlook = end.y + "-" + end.m + "-" + end.d + "T" + end.h + "%3A" + end.min;
-        var urlOutlook = "https://outlook.live.com/calendar/0/deeplink/compose?body=" + description + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + title;
+        var urlOutlook = "https://outlook.live.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
 
-        var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + description + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + title;
+        var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
 
-        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//NONSGML v1.0//EN\nBEGIN:VEVENT\n" + /*UID:me@google.com\n*/ "DTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + subject + "\nEND:VEVENT\nEND:VCALENDAR";
+        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//www.iaco.me//EN\nBEGIN:VEVENT\n" + /*UID:me@google.com\n*/ "DTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nURL:" + link + "\nDESCRIPTION:" + description + "\nTRANSP:OPAQUE\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:" + title + "\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR";
     </script>
     <ul>
         <li class="i-s">
-            <a onclick="window.open('data:text/calendar;charset=utf8,' + escape(icsFile));" target="_blank" style="cursor: pointer;">
+            <a onclick="window.open('data:text/calendar;charset=utf8,' + encodeURIComponent(icsFile));" target="_blank" style="cursor: pointer;">
                 <div class='logo'>
                     <i class='far fa-calendar-plus fa-2x'></i>
                 </div>
