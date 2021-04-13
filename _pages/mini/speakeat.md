@@ -92,7 +92,7 @@ permalink: /speakeat
 
         var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + description + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + title;
 
-        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//NONSGML v1.0//EN\nBEGIN:VEVENT\n/*UID:me@google.com\n*/DTSTAMP:" + dateStartGoogle + "00Z\n/*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + subject + "\nEND:VEVENT\nEND:VCALENDAR";
+        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//NONSGML v1.0//EN\nBEGIN:VEVENT\n" + /*UID:me@google.com\n*/ "DTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + subject + "\nEND:VEVENT\nEND:VCALENDAR";
     </script>
     <ul>
         <li class="i-s">
