@@ -77,6 +77,7 @@ permalink: /speakeat
         var start = {y: "2021",  m: "04",    d: "25",    h: "17", min: "00"};
         var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
 
+        var subject = "SpeakEat Rotaract";
         var title = "SpeakEat%20Rotaract";
         var link = "https%3A%2F%2Ftinyurl.com%2Fspeakeat-link";
         var description = "Details%20and%20videocall%20link%3A%0A" + link;
@@ -91,7 +92,7 @@ permalink: /speakeat
 
         var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + description + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + title;
 
-        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Our Company//NONSGML v1.0//EN\nBEGIN:VEVENT\nUID:me@google.com\nDTSTAMP:" + dateStartGoogle + "00Z\nATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO::me@gmail.com\nDTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nEND:VEVENT\nEND:VCALENDAR";
+        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//SpeakEat Rotaract//NONSGML v1.0//EN\nBEGIN:VEVENT\n/*UID:me@google.com\n*/DTSTAMP:" + dateStartGoogle + "00Z\n/*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + subject + "\nEND:VEVENT\nEND:VCALENDAR";
     </script>
     <ul>
         <li class="i-s">
