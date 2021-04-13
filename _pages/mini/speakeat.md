@@ -81,9 +81,9 @@ permalink: /speakeat
         var link = "https%3A%2F%2Ftinyurl.com%2Fspeakeat-link"
         var description = "Details and videocall link: " + link;
 
-        var titleEncoded = encodeURIComponent(subject);
-        var linkEncoded = encodeURIComponent(link);
-        var descriptionEncoded = encodeURIComponent(description);
+        var titleEncoded = escape(subject);
+        var linkEncoded = escape(link);
+        var descriptionEncoded = escape(description);
 
         var dateStartGoogle = start.y + start.m + start.d + "T" + start.h + start.min;
         var dateEndGoogle = end.y + end.m + end.d + "T" + end.h + end.min;
