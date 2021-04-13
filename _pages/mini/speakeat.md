@@ -99,7 +99,7 @@ permalink: /speakeat
     </script>
     <ul>
         <li class="i-s">
-            <a onclick="window.open('data:text/calendar;charset=utf8,' + encodeURIComponent(icsFile));" target="_blank" style="cursor: pointer;">
+            <a onclick="window.open('data:text/calendar;charset=utf8,' + escape(icsFile));" target="_blank" style="cursor: pointer;">
                 <div class='logo'>
                     <i class='far fa-calendar-plus fa-2x'></i>
                 </div>
