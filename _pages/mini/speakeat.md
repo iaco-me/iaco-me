@@ -113,21 +113,21 @@ permalink: /speakeat
         </li>
     </ul>
     <ul>
-        <li class="i-v" style="margin: 8px;">
+        <li class="i-v" style="margin: 0 8px 8px;">
             <a onclick="window.open(urlGoogle);" target="_blank">
                 <p class='title' style="margin: 10px; cursor: pointer;">
                     Google
                 </p>
             </a>
         </li>
-        <li class="i-v" style="margin: 8px;">
+        <li class="i-v" style="margin: 0 8px 8px;">
             <a onclick="window.open(urlOutlook);" target="_blank">
                 <p class='title' style="margin: 10px; cursor: pointer;">
                     Outlook
                 </p>
             </a>
         </li>
-        <li class="i-v" style="margin: 8px;">
+        <li class="i-v" style="margin: 0 8px 8px;">
             <a onclick="window.open(urlOffice);" target="_blank">
                 <p class='title' style="margin: 10px; cursor: pointer;">
                     Office 365
