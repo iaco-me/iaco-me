@@ -13,19 +13,9 @@ permalink: /meeting
     <title>e-Rotaract</title>
     <link rel="stylesheet" href="../../config/mini.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script>
-      let stream = null;
-
-      try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: true });
-      /* use the stream */
-      } catch(err) {
-      /* handle the error */
-      }
-    </script>
 </head>
 <body>
-  <iframe src="https://meet.jit.si/e-rotaract" style="height: 90vh; width: 60vw;"></iframe>
+  <iframe src="https://meet.jit.si/e-rotaract" allow="camera;microphone" style="height: 90vh; width: 60vw;"></iframe>
 </body>
 
 </html>
