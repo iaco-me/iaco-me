@@ -66,11 +66,11 @@ permalink: /meeting
 <body>
     <div class="wrapper">
         <div class="header">
-            header
+            <a style="cursor: pointer;" onclick="document.getElementById('call').src = document.getElementById('call').src;">(click to reload meeting call)</a>
         </div>
         <div class="wrapleft">
         <div class="left">
-            <iframe allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://meet.jit.si/e-rotaract" style="height: 100%; width: 100%; border: 0px;"></iframe>
+            <iframe id="call" allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://meet.jit.si/e-rotaract" style="height: 100%; width: 100%; border: 0px;"></iframe>
         </div>
         </div>
         <div class="right">
@@ -102,3 +102,4 @@ permalink: /meeting
 </body>
 
 </html>
+
