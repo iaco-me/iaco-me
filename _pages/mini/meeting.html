@@ -13,14 +13,14 @@ permalink: /meeting
     <title>e-Rotaract</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <style>
-      .wrapper{
+      .wrapper {
         width: 100%;
         height: 100vh;
         margin: 0 auto;
         background-color: black;
         color: gray;
       }
-      .header{
+      .header {
          float: left;
          width: 100%;
          height: 5%;
@@ -29,16 +29,20 @@ permalink: /meeting
          justify-content: center;
          text-align: center;
       }
-      .wrapleft{
+      .wrapleft {
          float: left;
          width: 100%;
          height: 90%;
       }
-      .left{
+      .left {
          margin-right: 150px;
          height: 100%;
       }
-      .right{
+      .left-full {
+         margin-right: 0px;
+         height: 100%;
+      }
+      .right {
          float: right;
          width: 150px;
          margin-left: -150px;
@@ -48,7 +52,17 @@ permalink: /meeting
          justify-content: center;
          text-align: center;
       }
-      .footer{
+      .right-full {
+         float: right;
+         width: 150px;
+         margin-left: -150px;
+         height: 90%;
+         display: none;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
+      .footer {
          float: left;
          width: 100%;
          height: 5%;
@@ -62,6 +76,24 @@ permalink: /meeting
          margin: 0px;
       }
     </style>
+    <script>
+        function toggleBar() {
+            var bar = document.getElementById('bar');
+            var left = document.getElementById('left');
+            
+            if (bar.className === 'right') {
+                bar.className = 'right-full';
+            } else {
+                bar.className = 'right';
+            }
+            
+            if (left.className === 'left') {
+                left.className = 'left-full';
+            } else {
+                left.className = 'left';
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="wrapper">
@@ -69,7 +101,7 @@ permalink: /meeting
             <a style="cursor: pointer;" onclick="document.getElementById('call').src = document.getElementById('call').src;">(click to reload meeting call)</a>
         </div>
         <div class="wrapleft">
-        <div class="left">
+        <div class="left" id="left">
             <iframe id="call" allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://meet.jit.si/e-rotaract" style="height: 100%; width: 100%; border: 0px;"></iframe>
         </div>
         </div>
@@ -98,7 +130,7 @@ permalink: /meeting
             </script>
         </div>
         <div class="footer">
-            <a style="cursor: pointer;" onclick="var x=document.getElementById('bar'); (x.style.display === 'none') ? x.style.display = 'flex' : x.style.display = 'none';">(hide bar)</a>
+            <a style="cursor: pointer;" onclick="toggleBar()">(hide bar)</a>
         </div>
     </div>
 </body>
