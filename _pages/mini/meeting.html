@@ -98,7 +98,7 @@ permalink: /meeting
 <body>
     <div class="wrapper">
         <div class="header">
-            <a style="cursor: pointer;" onclick="document.getElementById('call').src = document.getElementById('call').src;">(click to reload meeting call)</a>
+            <a style="cursor: pointer;" onclick="toggleBar()">(hide bar)</a>
         </div>
         <div class="wrapleft">
         <div class="left" id="left">
@@ -130,7 +130,7 @@ permalink: /meeting
             </script>
         </div>
         <div class="footer">
-            <a style="cursor: pointer;" onclick="toggleBar()">(hide bar)</a>
+            <a style="cursor: pointer;" onclick="document.getElementById('call').src = document.getElementById('call').src;">(reload meeting call)</a>
         </div>
     </div>
 </body>
