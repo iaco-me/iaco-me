@@ -110,15 +110,15 @@ ul {
 
 }
 
-.bg-nut {
+.bg-green {
     background: linear-gradient(to right, #a39a21, #256b6b) !important;
 }
 
-.bg-exe {
+.bg-orange {
     background: linear-gradient(to right, #ca4444, #a57621) !important;
 }
 
-.bg-rst {
+.bg-violet {
     background: linear-gradient(to right, #6144ca, #256b6b) !important;
 }
 
