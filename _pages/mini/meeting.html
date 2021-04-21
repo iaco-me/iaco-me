@@ -73,7 +73,7 @@ permalink: /meeting
             <iframe id="call" allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://meet.jit.si/e-rotaract" style="height: 100%; width: 100%; border: 0px;"></iframe>
         </div>
         </div>
-        <div class="right">
+        <div class="right" id="bar">
             (agenda)
             <br><br>
             (timer)
@@ -81,8 +81,7 @@ permalink: /meeting
             (attendance form)
             <br><br>
             (+)
-        </div>
-        <div class="footer">
+            <br><br>
             <div id="time"></div>
             <script>
               function startTime() {
@@ -97,6 +96,15 @@ permalink: /meeting
               }
               startTime();
             </script>
+        </div>
+        <div class="footer">
+            var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+            <a style="cursor: pointer;" onclick="var b=document.getElementById('bar'); (x.style.display === 'none') ? x.style.display = 'flex' : x.style.display = 'none';">(click to reload meeting call)</a>
         </div>
     </div>
 </body>
