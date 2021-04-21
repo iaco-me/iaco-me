@@ -47,7 +47,7 @@ permalink: /meeting
          width: 150px;
          margin-left: -150px;
          height: 90%;
-         display: flex;
+         display: block;
          align-items: center;
          justify-content: center;
          text-align: center;
@@ -106,14 +106,18 @@ permalink: /meeting
         </div>
         </div>
         <div class="right" id="bar">
-            (agenda)
-            <br><br>
-            (timer)
-            <br><br>
-            (attendance form)
-            <br><br>
-            (+)
-            <br><br>
+            <span>
+                (agenda)
+            </span>
+            <span>
+                (timer)
+            </span>
+            <span>
+                (attendance form)
+            </span>
+            <span>
+                (+)
+            </span>
             <span id="time"></span>
             <script>
               function startTime() {
