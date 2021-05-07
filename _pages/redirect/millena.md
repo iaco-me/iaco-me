@@ -1,6 +1,6 @@
 ---
 layout: redirect
 title: Millena
-permalink: /mmmmmmmmillenanbg
+permalink: /millenanbg
 redirect: "https://youtu.be/dZE6Xi3Ri4o"
 ---
