@@ -1,5 +1,5 @@
 # Site
-name: "IACO VIVACI"
+name: "IΛCO VIVΛCI"
 title: "IACO VIVACI"
 description: "Build YOU."
 logo: 'assets/images/logo.png'
@@ -19,10 +19,10 @@ authors:
     display_name: IΛCO VIVΛCI
     avatar: 'assets/images/avatar.png'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: hi@iaco.io
+    email: hi@iaco.mem
     web: https://iaco.me
     twitter: https://iaco.me/youtube
-    description: "Build YOU."
+    description: "I Care for Life"
 
 # Plugins
 plugins:

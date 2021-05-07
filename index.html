@@ -5,59 +5,35 @@ image: /assets/images/iaco-logo-share.jpg
 ---
 
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
 
-   <!--- basic page needs
-   ================================================== -->
-	<meta charset="utf-8">
-	<title>IACO VIVACI</title>
-	<meta name="description" content="IACO VIVACI Homepage">
-	<meta name="author" content="IACO VIVACI">
-
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="assets/css/base.css">
-   <link rel="stylesheet" href="assets/css/vendor.css">
-   <link rel="stylesheet" href="assets/css/main.css">
-
-   <!-- script
-   ================================================== -->
-	<script src="assets/js/modernizr.js"></script>
-	<script src="assets/js/pace.min.js"></script>
-
-   <!-- favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#32174D">
-    <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#32174D">
-
+    <meta charset="utf-8">
     <meta property="twitter:card" content="summary_large_image">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#141414">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#141414">
+    <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+    <meta name="theme-color" content="#141414">
+
+    <!-- Bootstrap core CSS -->
+    <link href="config/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- <link href="config/fontawesome-free/css/all.min.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap&subset=greek" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap&subset=greek" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="config/grayscale.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158716451-1"></script>
@@ -73,928 +49,376 @@ image: /assets/images/iaco-logo-share.jpg
     {% seo %}
 </head>
 
-
-<body id="top">
-
-	<!-- header
-   ================================================== -->
-   <header>
-
-   	<div class="header-logo">
-	      <a href="index.html">IACO</a>
-	   </div>
-
-		<a id="header-menu-trigger" href="#0">
-		 	<span class="header-menu-text">Menu</span>
-		  	<span class="header-menu-icon"></span>
-		</a>
-
-		<nav id="menu-nav-wrap">
-
-			<a href="#0" class="close-button" title="close"><span>Close</span></a>
-
-	   	<h3>I&Lambda;CO.</h3>
-
-			<ul class="nav-list">
-				<!-- <li class="current">
-                    <a class="smoothscroll" href="#home" title="">
-                        <i class="fa fa-home"></i> Home
-                    </a>
-                </li> -->
-				<li>
-                    <a class="smoothscroll" href="#about" title="">
-                        <i class="fa fa-user-tie"></i> Socials
-                    </a>
-                </li>
-				<li>
-                    <a class="smoothscroll" href="#skills" title="">
-                        <i class="fa fa-envelope"></i> E-mail
-                    </a>
-                </li>
-				<li>
-                    <a class="smoothscroll" href="#credentials" title="">
-                        <i class="fa fa-plus-square"></i> More
-                    </a>
-                </li>
-				<!-- <li>
-                    <a class="smoothscroll" href="#portfolio" title="">
-                        <i class="fa fa-briefcase"></i> Works
-                    </a>
-                </li> -->
-				<!-- <li>
-                    <a class="smoothscroll" href="#stats" title="">
-                        <i class="fab fa-linkedin"></i> Stats
-                    </a>
-                </li> -->
-				<!-- <li>
-                    <a class="smoothscroll" href="#contact" title="">
-                        <i class="fa fa-envelope"></i> Contact
-                    </a>
-                </li> -->
-                <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/iagofelipetrentin/" title="">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-                </li>
-			</ul>
-
-			<!-- <ul class="header-social-list">
-	         <li>
-	         	<a target="_blank" href="https://www.linkedin.com/in/iagofelipetrentin/"><i class="fab fa-linkedin"></i></a>
-	         </li>
-	        </ul> -->
-
-		</nav>  <!-- end #menu-nav-wrap -->
-
-	</header> <!-- end header -->
-
-
-   <!-- home
-   ================================================== -->
-   <section id="home">
-
-   	<div class="overlay"></div><div class="gradient-overlay"></div>
-
-   	<div class="home-content-table">
-
-		   <div class="home-content-tablecell">
-		   	<div class="row">
-		   		<div class="col-twelve">
-			  			<div class="home-bottom-text">
-
-                            <h3 class="animate-intro">Hello, I am</h3>
-				  			<h1 class="animate-intro">
-                                I&Lambda;CO VIV&Lambda;CI.
-                            </h1>
-                            <h2 class="animate-intro">
-                                Let's get in touch
-                            </h2>
-
-							<ul class="home-section-links">
-								<li class="animate-intro">
-                                    <a href="#about" class="smoothscroll" class="text">
-                                        Socials
-                                        <span><i class="fa fa-user-tie"></i></span>
-                                    </a>
-                                </li>
-								<li class="animate-intro">
-                                    <a href="#credentials" class="smoothscroll">
-                                        E-mail
-                                        <span><i class="fa fa-envelope"></i></span>
-                                    </a>
-                                </li>
-								<li class="animate-intro">
-                                    <a href="#contact" class="smoothscroll">
-                                        More
-                                        <span><i class="fa fa-plus-square"></i></span>
-                                    </a>
-                                    &ensp;
-                                </li>
-							</ul>
-
-			  			</div> <!-- end home-bottom-text -->
-			   	</div> <!-- end col-twelve -->
-		   	</div> <!-- end row -->
-		   </div> <!-- end home-content-tablecell -->
-		</div> <!-- end home-content-table -->
-
-		<a href="#main" class="scroll-icon smoothscroll">
-		   <span><i class="fa fa-arrow-down"></i></span>
-		</a>
-
-   </section> <!-- end home -->
-
-
-   <!-- main
-   ================================================== -->
-   <section id="main">
-
-    <div class="overlay"></div>
-    <div class="gradient-overlay"></div>
-
-    <div class="row narrow">
-        <div class="col-content">
-
-            <div class="section-intro">
-                <div class="video-wrapper">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nXhxMjtquus?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <div class="section-intro">
-               <h3 class="animate-this">I.</h3>
-               <h2 class="animate-this">My current level of familiarity with some technologies.</h2>
-               <p class="animate-this">My education background gave me a solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.</p>
-            </div>
-            <div class="section-intro">
-               <h3 class="animate-this">II.</h3>
-               <h2 class="animate-this">My current level of familiarity with some technologies.</h2>
-               <p class="animate-this">My education background gave me a solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.</p>
-            </div>
-            <div class="section-intro">
-               <h3 class="animate-this">III.</h3>
-               <h2 class="animate-this">My current level of familiarity with some technologies.</h2>
-               <p class="animate-this">My education background gave me a solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.</p>
-            </div>
-            <div class="section-intro">
-               <h3 class="animate-this">
-                   <i class="fa fa-user-tie"></i>
-               </h3>
-               <h4 class="animate-this">
-                   <em>Author: I&Lambda;CO VIV&Lambda;CI</em>
-                   <br>
-                   <em>Special Guest(s): Katlen Carvalho</em>
-                   <br>
-                   Contributor(s): Aaron @aaron
-                   <br>
-                   Editor: Someone Here
-               </h4>
-               <h3 class="animate-this">
-                   <i class="fa fa-tags"></i>
-               </h3>
-               <h4 class="animate-this">
-                   <em>Categories: Category Prime, Second One</em>
-                   <br>
-                   Tags: #abc #tagexample
-               </h4>
-            </div>
-
-        </div>
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-family: 'Comfortaa'">
+          <!-- <object data="img/rotary-white.svg" style="height: 2em; width: 2em; vertical-align: middle;" type="image/svg+xml" id="rotary-white">
+              <img src="img/rotary-white.png" style="height: 2em; width: 2em; vertical-align: middle;" />
+          </object>
+          <object data="img/rotary-pink.svg" style="height: 2em; width: 2em; vertical-align: middle; display:none;" type="image/svg+xml" id="rotary-pink">
+              <img src="img/rotary-pink.png" style="height: 2em; width: 2em; vertical-align: middle;" />
+          </object> -->
+          <i class="fas fa-rocket fa-lg text-primary-50 mb-2 mt-2"></i>
+          <b>IΛCO&nbsp;VIVΛCI</b>
+      </a>
+      <!--
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      -->
+      <!--<div class="collapse navbar-collapse" id="navbarResponsive">-->
+        <ul class="navbar-nav ml-auto">
+          <!--
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about"><i class="far fa-heart fa-2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects"><i class="far fa-lightbulb fa-2x"></i></a>
+          </li>
+          -->
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" title="YouTube" href="https://iaco.me/youtube"><i class="fab fa-youtube fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link js-scroll-trigger" title="Instagram" href="https://iaco.me/instagram"><i class="fab fa-instagram fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" title="Blog" href="https://iaco.me/blog"><i class="fas fa-bookmark" style="vertical-align: text-top;"></i></a>
+          </li>
+        </ul>
+      <!-- </div> -->
     </div>
+  </nav>
 
-   </section>
-
-   <!-- more
-   ================================================== -->
-   <section id="more">
-
-    <div class="more-wrap">
-        <a href="./index.html#more">
-            <div class="more-bg-1" style="background-image: url('https://i1.ytimg.com/vi/HY5WaiBv1so/maxresdefault.jpg');"></div>
-            <div class="more-1">
-                <div class="intro">
-                    <h3 class="animate-this">READ MORE HERE</h3>
-                    <h1 class="animate-this">Title A</h1>
-                    <p class="lead animate-this">Description.</p>
-                </div>
-            </div>
-        </a>
-        <a href="./index.html#main">
-            <div class="more-bg-2" style="background-image: url('https://i1.ytimg.com/vi/oh_yZdOjuk0/maxresdefault.jpg');"></div>
-            <div class="more-2">
-                <div class="intro">
-                    <h3 class="animate-this">MORE FOR YOU</h3>
-                    <h1 class="animate-this">Title B</h1>
-                    <p class="lead animate-this">Description.</p>
-                </div>
-            </div>
-        </a>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center mt-5">
+        <h1 class="my-0 mt-5">Hi,&nbsp;I'm&nbsp;IΛCO.</h1>
+        <i>
+            <h5 class="text-white mx-auto mt-5 mb-2">Your lifestyles are your identity — Who are you?</h5>
+            <h5 class="text-white mx-auto mt-2 mb-2">&nbsp;</h5>
+            <h5 class="text-white mx-auto mt-2 mb-5">Build your lifestyles. Build YOU.</h5>
+        </i>
+        <!-- <a id="posts" href="#posts" class="btn btn-primary js-scroll-trigger"><i class="fas fa-2x fa-angle-double-down"></i></a> -->
+        <a target="_blank" class="js-scroll-trigger mx-3" title="YouTube" href="https://iaco.me/youtube"><i class="fab fa-youtube fa-2x"></i></a>
+        <a target="_blank" class="js-scroll-trigger mx-3" title="Instagram" href="https://iaco.me/instagram"><i class="fab fa-instagram fa-2x"></i></a>
+        <a class="js-scroll-trigger mx-3" title="Blog" href="https://iaco.me/blog"><i class="fas fa-bookmark fa-2x"></i></a>
+      </div>
     </div>
-
-   </section>
-
-   <!-- about
-   ================================================== -->
-   <section id="about">
-
-   	<div class="about-profile-bg"></div>
-
-   	<div class="about-wrap">
-
-   		<div class="about-profile">
-
-   			<div class="about-profile-bg"></div>
-
-				<div class="intro">
-					<h3 class="animate-this">Life</h3>
-	   			<h1 class="animate-this">Since 1994.</h1>
-
-	   			<p class="lead animate-this">Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
-				</div>
-
-   			<p class="animate-this">
-   			Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.
-   			</p>
-
-   			<p class="animate-this">Lorem ipsum Minim nisi dolore proident Ut dolor quis deserunt voluptate Ut voluptate enim ut adipisicing fugiat cupidatat nisi adipisicing labore non adipisicing in sit proident. Ut in qui ea sint occaecat in commodo in in in incididunt ut</p>
-
-   			<p>
-   				<a href="#contact" class="button full-width animate-this smoothscroll">Contact Me</a>
-   				<a href="#" class="button button-primary full-width animate-this smoothscroll">Download CV</a>
-   			</p>
-
-   		</div> <!-- end about-profile  -->
-
-   		<div class="about-services">
-
-				<div class="intro">
-	   			<h3 class="animate-this">Interests</h3>
-	   			<h1 class="animate-this">What I Do.</h1>
-
-	   			<p class="lead animate-this">Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit. Ut dolor quis deserunt voluptate.</p>
-   			</div>
-
-   			<ul class="services">
-   				<li class="item-branding animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-RegisteredTrademark"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Branding</h4>
-   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
-   						</p>
-   					</div>
-   				</li>
-   				<li class="item-photography animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-Picture"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Photography</h4>
-   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
-   						</p>
-   					</div>
-   				</li>
-   				<li class="item-webdesign animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-HTML"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Web Design</h4>
-   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
-   						</p>
-   					</div>
-   				</li>
-   				<li class="item-uiux animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-Checked"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>UI/UX Design</h4>
-   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
-   						</p>
-   					</div>
-   				</li>
-   			</ul>
-
-   		</div> <!-- end about-services  -->
-
-   	</div> <!-- end about-wrap  -->
-
-   </section> <!-- end about -->
-
-
-   <!-- skills
-   ================================================== -->
-   <section id="skills">
-
-   	<div class="overlay"></div>
-   	<div class="gradient-overlay"></div>
-
-   	<div class="row wide">
-   		<div class="col-skills">
-
-   			<div class="section-intro">
-   			   <h3 class="animate-this">Skills</h3>
-   			   <h1 class="animate-this">Things I've Learned<br>in Life.</h1>
-               <h2 class="animate-this">My current level of familiarity with some technologies.</h2>
-   			   <p class="animate-this">My education background gave me a solid foundation in informatics, which allowed me to fluidly learn and use various technologies in my profession.</p>
-   			</div>
-
-   			<ul class="skill-bars">
-                <li class="animate-this" data-animate="fadeInRight">
-                 <div class="progress percent95">
-                     <span>
-                         <object type="image/svg+xml" data="assets/images/icons/battery-3.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                             <img src="assets/images/icons/battery-3.png" alt="Excellent level">
-                         </object>
-                     </span>
-                 </div>
-                 <strong>AgentSpeak &mdash; Jason</strong>
-                </li>
-                   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent85">
-                        <span>
-                            <object type="image/svg+xml" data="assets/images/icons/battery-3.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                <img src="assets/images/icons/battery-3.png" alt="Excellent level">
-                            </object>
-                        </span>
-                    </div>
-				   	<strong>Assembly</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent95">
-                        <span>
-                            <object type="image/svg+xml" data="assets/images/icons/battery-3.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                <img src="assets/images/icons/battery-3.png" alt="Excellent level">
-                            </object>
-                        </span>
-                    </div>
-				   	<strong>C</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent55">
-                        <span>
-                            <object type="image/svg+xml" data="assets/images/icons/battery-1.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                <img src="assets/images/icons/battery-1.png" alt="Good level">
-                            </object>
-                        </span>
-                    </div>
-				   	<strong>C++</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent85">
-                        <span>
-                            <object type="image/svg+xml" data="assets/images/icons/battery-3.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                <img src="assets/images/icons/battery-3.png" alt="Excellent level">
-                            </object>
-                        </span>
-                    </div>
-				   	<strong>HTML &mdash; CSS</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent95">
-                        <span>
-                            <object type="image/svg+xml" data="assets/images/icons/battery-3.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                <img src="assets/images/icons/battery-3.png" alt="Excellent level">
-                            </object>
-                        </span>
-                    </div>
-				   	<strong>Java</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent70">
-                        <span>
-                            <object type="image/svg+xml" data="assets/images/icons/battery-2.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                <img src="assets/images/icons/battery-2.png" alt="Great level">
-                            </object>
-                        </span>
-                    </div>
-				   	<strong>Javascript &mdash; TypeScript</strong>
-				   </li>
-                   <li class="animate-this" data-animate="fadeInRight">
-                    <div class="progress percent55">
-                           <span>
-                               <object type="image/svg+xml" data="assets/images/icons/battery-1.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                   <img src="assets/images/icons/battery-1.png" alt="Good level">
-                               </object>
-                           </span>
-                       </div>
-                    <strong>JUnit</strong>
-                   </li>
-                   <li class="animate-this" data-animate="fadeInRight">
-                    <div class="progress percent70">
-                           <span>
-                               <object type="image/svg+xml" data="assets/images/icons/battery-2.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                   <img src="assets/images/icons/battery-2.png" alt="Great level">
-                               </object>
-                           </span>
-                       </div>
-                    <strong>Python</strong>
-                   </li>
-                   <li class="animate-this" data-animate="fadeInRight">
-                    <div class="progress percent85">
-                           <span>
-                               <object type="image/svg+xml" data="assets/images/icons/battery-3.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                   <img src="assets/images/icons/battery-3.png" alt="Excellent level">
-                               </object>
-                           </span>
-                       </div>
-                    <strong>SQL &mdash; SPARQL</strong>
-                   </li>
-                   <li class="animate-this" data-animate="fadeInRight">
-                    <div class="progress percent55">
-                           <span>
-                               <object type="image/svg+xml" data="assets/images/icons/battery-1.svg" style="width: 30px; height: 20px; vertical-align: middle;">
-                                   <img src="assets/images/icons/battery-1.png" alt="Good level">
-                               </object>
-                           </span>
-                       </div>
-                    <strong>VHDL</strong>
-                   </li>
-				</ul>
-
-   		</div> <!-- end col-six -->
-   	</div> <!-- end row wide -->
-
-   </section> <!-- end skills -->
-
-
-   <!-- credentials
-   ================================================== -->
-   <section id="credentials">
-
-   	<div class="row narrow section-intro with-bottom-sep">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Experience</h3>
-	   		<h1 class="animate-this">More of My Credentials.</h1>
-	   		<p class="lead">I am proud of my international experience in renowned organizations.<br>In the current moment I am finishing my PhD thesis in Informatics.</p>
-   		</div>
-   	</div> <!-- end section-intro -->
-
-		<div class="row wide credentials-content">
-
-			<div class="col-six tab-full left">
-
-				<h2 class="animate-this">Career</h2>
-
-	   		<div class="timeline-wrap">
-
-   				<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">2018 - 2021</p>
-	   					<h3>Orange Labs</h3>
-	   					<h4>Grenoble/France</h4>
-                        <h5>Research Engineer</h5>
-	   				</div>
-	   				<div class="timeline-content">
-	   					<p>Member of the IOT team, working in the development of my PhD thesis for the Smart Home Knowledge project.</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">2018</p>
-	   					<h3>OmniCar Start-up</h3>
-	   					<h4>Porto Alegre/Brasil</h4>
-                        <h5>Co-founder</h5>
-	   				</div>
-	   				<div class="timeline-desc">
-	   					<p>Business strategy and administration, mobile app development, marketing.</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">May 2013 - June 2014</p>
-	   					<h3>Great Designs Studio</h3>
-	   					<h4>Web Designer</h4>
-	   				</div>
-	   				<div class="timeline-content">
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-
-   			</div> <!-- end timeline-wrap -->
-
-	   	</div> <!-- end col-six -->
-
-	   	<div class="col-six tab-full right">
-
-	   		<h2 class="animate-this">Education</h2>
-
-				<div class="timeline-wrap">
-
-   				<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">2018 - 2021</p>
-	   					<h3>Université de Lyon</h3>
-	   					<h4>Grenoble/France</h4>
-                        <h5>PhD Student in Informatics</h5>
-	   				</div>
-	   				<div class="timeline-content">
-	   					<p>Thesis subject: AI adaptation of user-centric IoT
-                            services at Smart Home environments.</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">June 2008 - March 2012</p>
-	   					<h3>State Design University</h3>
-	   					<h4>Bachelor Degree</h4>
-	   				</div>
-	   				<div class="timeline-desc">
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">June 2006 - October 2008</p>
-	   					<h3>Design College</h3>
-	   					<h4>Bachelor Degree</h4>
-	   				</div>
-	   				<div class="timeline-content">
-	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-	   				</div>
-
-	   			</div> <!-- end timeline-block -->
-
-   			</div> <!-- end timeline-wrap -->
-
-	   	</div> <!-- end col-six -->
-
-		</div> <!-- end row wide -->
-
-   </section> <!-- end credentials -->
-
-
-	<!-- portfolio
-   ================================================== -->
-   <section id="portfolio">
-
-   	<div class="row narrow section-intro with-bottom-sep">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Portfolio</h3>
-	   		<h1 class="animate-this">See My Latest Projects.</h1>
-
-	   		<p class="lead animate-this">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-   		</div>
-   	</div> <!-- end row section-intro -->
-
-   	<div class="row portfolio-content">
-   		<div class="col-twelve">
-   			<div id="folio-wrap" class="bricks-wrapper">
-
-   				<div class="brick folio-item">
-	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-skaterboy.jpg" data-sub-html="#01" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/skaterboy.jpg" alt="Skaterboy">
-	                     <div class="item-text">
-	                     	<span class="folio-types">
-		     					      Web Development
-		     					   </span>
-		     					   <h3 class="folio-title">Skaterboy</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-UpRightArrow"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-						<div id="01" class='hide'>
-							<h4>Skater Boy</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-	        		<div class="brick folio-item">
-	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg" data-sub-html="#02">
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
-	                     <div class="item-text">
-	                     	<span class="folio-types">
-		     					      Photography
-		     					   </span>
-		     					   <h3 class="folio-title">Shutterbug</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-UpRightArrow"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="02" class='hide'>
-							<h4>Shutterbug</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-	        		<div class="brick folio-item">
-	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-explore.jpg" data-sub-html="#03" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/explore.jpg" alt="Explore">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      UI/UX Design
-		     					   </span>
-		     					   <h3 class="folio-title">Explore</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-UpRightArrow"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="03" class='hide'>
-							<h4>Explore</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-					<div class="brick folio-item">
-	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg"  data-sub-html="#04" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Web Design
-		     					   </span>
-		     					   <h3 class="folio-title">Minimalismo</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-UpRightArrow"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="04" class='hide'>
-							<h4>Minimalismo</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-					<div class="brick folio-item">
-	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-bicycle.jpg"  data-sub-html="#05" >
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/bicycle.jpg" alt="Bicycle">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Branding
-		     					   </span>
-		     					   <h3 class="folio-title">Bicycle</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-UpRightArrow"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="05" class='hide'>
-							<h4>Bicycle</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-					<div class="brick folio-item">
-	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-salad.jpg"  data-sub-html="#06">
-	                  <a href="#" class="overlay">
-	                  	<img src="images/portfolio/salad.jpg" alt="Salad">
-	                     <div class="item-text">
-		     					   <span class="folio-types">
-		     					      Photography
-		     					   </span>
-		     					   <h3 class="folio-title">Salad</h3>
-		     					</div>
-	                  </a>
-	                  <a href="https://www.behance.net/" class='details-link' title="details">
-	                  	<i class="icon-UpRightArrow"></i>
-	                  </a>
-	               </div> <!-- end item-wrap -->
-
-	               <div id="06" class='hide'>
-							<h4>Salad</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
-						</div>
-	        		</div> <!-- end folio-item -->
-
-   			</div> <!-- end folio-wrap -->
-   		</div> <!-- end twelve -->
-   	</div> <!-- end portfolio-content -->
-
-   </section>  <!-- end portfolio -->
-
-
-	<!-- stats
-   ================================================== -->
-   <section id="stats">
-
-		<div class="row">
-			<div class="col-twelve">
-				<div class="block-1-4 block-tab-1-2 block-mob-full stats-list">
-
-					<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-Briefcase"></i>
-						</div>
-						<h5 class="stat-title">
-							Projects Completed
-						</h5>
-						<h3 class="stat-count">430</h3>
-					</div> <!-- end stat -->
-
-					<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-AddressBook"></i>
-						</div>
-						<h5 class="stat-title">
-							Happy Clients
-						</h5>
-						<h3 class="stat-count">390</h3>
-					</div> <!-- end stat -->
-
-					<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-Diploma1"></i>
-						</div>
-						<h5 class="stat-title">
-							Awards Received
-						</h5>
-						<h3 class="stat-count">100</h3>
-					</div> <!-- end stat -->
-
-					<div class="bgrid stat">
-						<div class="icon-part">
-							<i class="icon-Idea"></i>
-						</div>
-						<h5 class="stat-title">
-							Crazy Ideas
-						</h5>
-						<h3 class="stat-count">120</h3>
-					</div> <!-- end stat -->
-
-				</div> <!-- end stats-list -->
-			</div> <!-- end col-twelve -->
-		</div> <!-- end row -->
-
-   </section> <!-- end stats -->
-
-
-	<!-- contact
-   ================================================== -->
-   <section id="contact">
-
-      <div class="overlay"></div>
-
-		<div class="row narrow section-intro">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Contact</h3>
-   			<h1 class="animate-this">I'm Looking for Opportunities. Contact Me.</h1>
-
-   			<p class="lead animate-this">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-   		</div>
-   	</div> <!-- end section-intro -->
-
-   	<div class="row contact-form">
-   		<div class="col-twelve">
-
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post">
-
-
-                  <div class="form-field animate-this">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field animate-this">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field animate-this">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>
-                  <div class="form-field animate-this">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>
-
-                  <div class="form-field animate-this">
-                     <button class="submitform">Submit</button>
-
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-
-      		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning"></div>
-
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- end col-twelve -->
-   	</div> <!-- end row contact-form -->
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-   			<h5 class="animate-this">Where to find me</h5>
-
-   			<p class="animate-this">
-            1600 Amphitheatre Parkway<br>
-            Mountain View, CA<br>
-            94043 US
-            </p>
-   		</div> <!-- end col-four -->
-
-   		<div class="col-four tab-full collapse">
-   			<h5 class="animate-this">Email Me At</h5>
-
-   			<p class="animate-this">
-   				someone@howdywebsite.com<br>
-			   	info@howdywebsite.com
-			   </p>
-   		</div> <!-- end col-four -->
-
-   		<div class="col-four tab-full">
-   			<h5 class="animate-this">Call Me At</h5>
-
-   			<p class="animate-this">
-   				Phone: (+63) 555 1212<br>
-			   	Mobile: (+63) 555 0100<br>
-			     	Fax: (+63) 555 0101
-			   </p>
-   		</div> <!-- end col-four -->
-
-   	</div> <!-- end row contact-info -->
-
-	</section> <!-- end contact -->
-
-
-	<!-- footer
-   ================================================== -->
-	<footer>
-     	<div class="row">
-
-     		<div class="col-twelve tab-full social">
-     			<ul class="footer-social">
-			      <li>
-                      <a target="_blank" href="https://www.linkedin.com/in/iagofelipetrentin/" title="">
-                          <i class="fab fa-linkedin"></i> LinkedIn
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center bg-black">
+    <div class="container">
+        <div class="row mb-3" style="margin-top: -5vh;">
+            <div class="col-md-1 mb-3 mb-md-0 pt-md-5 text-md-right d-none d-md-block ">
+              <a href="/post/" class="text-white-50 hover-white">
+                <i class="fas fa-angle-double-left fa-2x mt-md-2" style="text-shadow: 0px 0px 5px black"></i>
+              </a>
+            </div>
+
+            {% assign max_number = 2 %}
+            {% for post in site.posts %}
+
+                {% if post.featured == true and max_number > 0 %}
+                    <div class="col-md-5 mb-3 mb-md-0">
+                      <a href="{{ site.baseurl }}{{ post.url }}">
+                        {% if post.video %}
+                        <div class="card pt-4 h-100" style="background-image: url('https://i1.ytimg.com/vi/{{ post.video }}/maxresdefault.jpg');">
+                        {% else %}
+                        <div class="card pt-4 h-100">
+                        {% endif %}
+                          <div class="card-body text-center mt-3">
+                            <i class="fas fa-share fa-2x text-white mt-4 mb-2" style="text-shadow: 0px 0px 5px black; opacity: 0.7;"></i>
+                            <div class="text-white" style="text-shadow: 0px 2px 8px #404040, 1px 1px 5px #404040, 1px 1px 2px #404040;  background-color: #000000BB; border-radius: 10px;">{{ post.title | strip_html | truncatewords:12 }}</div>
+                          </div>
+                        </div>
                       </a>
-                  </li>
-			   </ul>
-	      </div>
+                    </div>
+                    {% assign max_number = max_number | minus: 1 %}
+                {% endif %}
 
-      	<div class="col-twelve tab-full">
-	      	<div class="copyright">
-		        	<span><script>document.write(new Date().getFullYear())</script> &copy; <script>document.write(document.location.host)</script></span>
-		      </div>
-	      </div>
+            {% endfor %}
 
-      </div> <!-- end row -->
-
-        <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><div class="pulsating-circle"></div><i class="far fa-bell"></i></a>
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
+            <div class="col-md-1 mb-3 mb-md-0 pt-md-5 text-md-left">
+              <a href="/post/" style="text-shadow: 0px 0px 5px black">
+                <i class="fas fa-angle-double-right fa-2x mt-md-2 text-white-50 hover-white d-none d-md-block"></i>
+                <i class="fas fa-bookmark fa-2x mt-md-2 text-white d-block d-md-none"></i>
+                <span class="d-block d-md-none text-white"> all blog posts</span>
+              </a>
+            </div>
         </div>
-   </footer>
 
-   <div id="preloader">
-    	<div id="loader"></div>
-   </div>
+        <div class="row mb-4">
+            <div class="col-12 mb-1">
+              <a href="/post/" style="text-shadow: 0px 0px 5px black">
+                <span class="d-none d-md-block text-white-50 hover-white"><i class="fas fa-bookmark fa-lg"></i> all blog posts</span>
+              </a>
+            </div>
+        </div>
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="assets/js/jquery.min.js"></script>
-   <script src="assets/js/plugins.js"></script>
-   <script src="assets/js/main.js"></script>
+        <div class="row justify-content-center">
+            <div class="col-lg-7 mx-auto mt-4 mb-5">
+                <h3 class="text-white mb-0 text-white-50 hover-white">
+                    <b>BUILD <i class="fas fa-arrow-right fa-xs" style="vertical-align: 4px;"></i> UPGRADE</b>
+                    <i><h5 class="text-white">
+                        I am fascinated by lifestyles.
+                        <br>
+                        Building them will upgrade your life to new levels.
+                    </h5></i>
+                </h3>
+                <h3 class="text-white mt-5 mb-0 text-white-50 hover-white">
+                    <b>TRY. DO. BECOME.</b>
+                    <i><h5 class="text-white mx-auto">
+                        Lifestyles are conscious positive habits.
+                        <br>
+                        Once built, they become part of your identity.
+                    </h5></i>
+                </h3>
+                <h3 class="text-white mt-5 mb-0 text-white-50 hover-white">
+                    <b>MAN ON A MISSION</b>
+                    <i><h5 class="text-white mx-auto">
+                        I am here to inspire you...
+                        <br>
+                        to become your best YOU.
+                    </h5></i>
+                </h3>
+            </div>
+            <div class="col-lg-3 mx-auto" style="margin-top: auto; margin-bottom: auto;">
+                <img src="assets/images/iaco-alpha.png" class="img-fluid mb-3" alt="" style="max-width: 200px;">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-black">
+    <div class="container">
+
+      <!-- <div class="row align-items-center no-gutters mb-4">
+          <div class="col-xl-12 col-lg-12">
+              <h6 class="text-white-50 text-center">Why VIVΛCI?<br>It is my purpose: love-for-live!</h6>
+          </div>
+      </div> -->
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5 project">
+        <div class="col-lg-6">
+            <img class="img-fluid mb-0 project-img" src="assets/images/light.jpg" alt="VIVACI">
+            <div class="middle text-center">
+              <h1><b>VIVΛCI</b></h1>
+            </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="text-center">
+            <h5 class="text-white mx-auto">&nbsp;</h5>
+            <h5 class="text-white mx-auto small"><span id="vivacity-noun">| mass noun, adj, adv, interj.</span></h5>
+            <h5 class="text-white mx-auto">inspiringly energetic and enthusiastic;</h5>
+            <h5 class="text-white mx-auto">exuberant liveliness and vitality;</h5>
+            <h5 class="text-white mx-auto">the quality of being full of life;</h5>
+            <h5 class="text-white mx-auto">attractive lust for life;</h5>
+            <h5 class="text-white mx-auto">vivid love for life.</h5>
+            <h5 class="text-white mx-auto">&nbsp;</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5 project">
+        <div class="col-lg-7 order-2 order-lg-1">
+          <div class="text-center">
+              <h1 class="text-white mb-0 text-white-50 hover-white">
+                  <b>CARE</b>
+                  <i><h5 class="text-white">the act of loving and being responsible with,<br>giving attention to and investing time in;</h5></i>
+              </h1>
+              <h1 class="text-white mt-3 mb-0 text-white-50 hover-white">
+                  <b>for</b>
+                  <i><h5 class="text-white mx-auto">‘care for’: to look after, to help and protect;</h5>
+                    <h5 class="text-white mx-auto">‘for life’: forever, for the whole of one's life;</h5></i>
+              </h1>
+              <h1 class="text-white mt-3 mb-0 text-white-50 hover-white">
+                  <b>LIFE</b>
+                  <i><h5 class="text-white mx-auto">the presence of vivacity, source of vitality,<br>one's collection of experiences & contributions.</h5></i>
+              </h1>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2">
+            <img class="img-fluid mb-0 project-img" src="assets/images/watering.jpg" alt="CARE for LIFE">
+            <div class="middle text-center">
+              <h1><b>CARE<h5 style="font-size: 30px;">for</h5>LIFE</b></h1>
+            </div>
+        </div>
+      </div>
+
+      <!-- <div class="row text-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-8 mx-auto">
+              <br>
+              <h6 class="text-white-50 mb-2">Check my last post...</h6>
+              <br>
+              <h3 class="text-white mb-4">1 year Vegan: Chocolate Cake (and Mousse) for my Vegan Birthday</h3>
+              <iframe width="100%" height="400px" src="https://www.youtube.com/embed/nXhxMjtquus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br><br>
+              <a href="/post/001" class="btn btn-primary js-scroll-trigger">Go to iaco.me/post/001</a>
+          </div>
+      </div> -->
+
+      <!-- Project One Row -->
+      <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/connection.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">One</h4>
+                  <h5 class="mb-0 text-white">Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare, mercede accepta lucris quosdam et prandiis inserunt subditicios ignobiles et obscuros.Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod.
+                  </h5>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Project Two Row -->
+      <!-- <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/inspire.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Two</h4>
+                  <h5 class="mb-0 text-white">Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare, mercede accepta lucris quosdam et prandiis inserunt subditicios ignobiles.</h5>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </section>
+
+  <!-- Instagram Section -->
+  <!--
+  <section id="instagram" class="projects-section bg-black">
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center text-white mb-4">
+                Instagram <a target="_blank" href="http://iaco.me/instagram">@iaco.me</a>
+            </h3>
+          </div>
+          <div class="col-12" style="max-height: 830px; overflow: hidden;">
+              <div class='embedsocial-instagram' data-ref="1923f0b849426d096a5f80f0dc8e81ee4445e41b" style="margin-top: -100px;"></div>
+              <script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));
+              </script>
+          </div>
+        </div>
+    </div>
+  </section>
+  -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="https://iaco.me/youtube">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-youtube fa-2x text-white mb-2"></i>
+                <h5 class="text-white m-0">Subscribe</h5>
+                <hr class="my-4">
+                <div class="text-white">IΛCO VIVΛCI</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="https://iaco.me/instagram">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-instagram fa-2x text-white mb-2"></i>
+                <h5 class="text-white m-0">Follow</h5>
+                <hr class="my-4">
+                <div class="text-white">@iaco.me</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-2 mb-md-0">
+          <a href="https://iaco.me/post">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-bookmark fa-2x text-white mb-2"></i>
+                <h5 class="text-white m-0">Check</h5>
+                <hr class="my-4">
+                <div class="text-white">iaco.me/blog</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Signup Section -->
+  <!-- <section id="signup" class="signup-section bg-black" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-6 mx-auto my-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto justify-content-center social">
+            <h5 class="mb-1 small">take good care,</h5>
+            IACO VIVACI
+            <br><br>
+            <a href="mailto:hi@iaco.me"><i class="far fa-envelope"></i></a> send me a letter
+            <br><br>
+            <a href="https://iaco.me/terms"><i class="far fa-copyright"></i></a> rights and terms
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="config/jquery/jquery.min.js"></script>
+  <script src="config/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="config/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="config/grayscale.js"></script>
 
 </body>
 
