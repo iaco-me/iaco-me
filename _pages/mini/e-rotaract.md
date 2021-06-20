@@ -149,7 +149,7 @@ permalink: /e-rotaract
     <ul id="socialCauses"></ul>
     <script>
         document.getElementById("socialCauses").innerHTML =
-            ["Accessibility", "Racism", "Veganism", "Feminism", "Ableism", "LGBT+", "Xenophobia", "Carnism ", "Speciesism", "Environment", "Islamophobia", "Data Privacy", "Human Rights", "Peace", "Net Neutrality", "Support Small Businesses", "Waste Reduction", "Minimalism", "Milk Tea Alliance"]
+            ["Accessibility", "Racism", "Veganism", "Feminism", "Ableism", "LGBT+", "Xenophobia", "Carnism ", "Speciesism", "Environment", "Islamophobia", "Data Privacy", "Human Rights", "Peace", "Net Neutrality", "Support Small Businesses", "Waste Reduction", "Minimalism", "Milk Tea Alliance", "Animal Rights/Welfare"]
             .sort()
             .map(i => "<li class='i-v' style='margin: 5px 8px;'><a><p class='title' style='margin: 10px; cursor: pointer;'>" + i + "</p></a></li>")
             .join("");
@@ -220,7 +220,11 @@ permalink: /e-rotaract
     <ul id="projects"></ul>
     <script>
         document.getElementById("projects").innerHTML =
-            ["Map of the world (places for \"Rotaract Couchsurfing\")", "Webinars/campaigns about important subjects (taboos, social aspects, projects...)"]
+            ["Map of the world (places for \"Rotaract Couchsurfing\")",
+             "Webinars/campaigns about important subjects (taboos, social aspects, projects...)",
+             "Celebrate the “rotaract birthday” of each member",
+             "Help members share their knowledge (presentations of their professions, knowledge, trainings...)",
+             "'One pdf page' for new membres (with link to constitution, website, main things to remind)"]
             .sort()
             .map(i => "<li class='i-v' style='margin: 5px 8px;'><a><p class='title' style='margin: 10px; cursor: pointer;'>" + i + "</p></a></li>")
             .join("");
@@ -249,7 +253,41 @@ permalink: /e-rotaract
              "If member has no minimum attendance, must pay a fine", "Member cannot vote if absent at 2 (or more) of previous 4 meetings (= 3/5)",
              "Maximum of 2 (or 3) encounters per month", "Meetings always on sundays, with time between 16:30 and 19:30 (UTC)", "Learn about CNV (1h)", "Talk turns (organized meeting)",
              "Learn about 'nonviolent communication' before become member",
-             "Create a method for meetings to avoid interrupting each other, e.g. speaking turns, so everyone is listened"]
+             "Create a method for meetings to avoid interrupting each other, e.g. speaking turns, so everyone is listened",
+             "Manage conflicts having someone as 'mediator'",
+             "To become member, must understand and accept the club constitution (if not, how to ask a member to leave?)",
+             "Meeting starts saying how we feel in scale 1-10",
+             "Meeting with 'icebreaker' 2-3min",
+             "Meetings can have new head/animator (rotate among those who want)",
+             "Train people to use digital tools important for the e-club",
+             "Meeting to know each other at beginning of the year (with games...)",
+             "Meeting with a 'chat' system (how should it be use?)",
+             "Meeting has a system of 'codes'/gestures (up to us to define)",
+             "The welcoming of future members is really important (we must define things that we cannot forget)",
+             "After projects/actions we must study + and - to learn together",
+             "Be trustful§responsible: if we commit, we must do, so only commit if can",
+             "Define voting system for big decisions",
+             "If conflit emerges, we must focus on tolerance, facts and solutions, not point fingers nor attack",
+             "Meeting end with a small tour: each one say one word/small sentence",
+             "Find Rotary club to be our sponsor (if we want, but is not needed)",
+             "Find Rotary clubs (multiple) to be partners (instead of sponsors)",
+             "Club works in a 'horizontal' way = no hierarchy of power",
+             "Find ways to be financed through big actions/projects",
+             "Put in place ways to allow people to join/become partner of our club: those who share our values",
+             "Get to know the culture of every one: by traveling, by presentations...",
+             "Be an 'example' to inspire other clubs",
+             "Make digital projects/actions together and with many partners",
+             "Use social networks to communicate with the public (define strategies together)",
+             "Get to know each other and create human connections",
+             "Everybody is admin in chat group",
+             "Pay the annual fee of Rotaract France (for French members) and of Rotaract Brasil (for Brazilian members)",
+             "The annual contribution must be paid until end of May (with discount), or if asked a person can pay in 3 times (May, June, July, with discount), if person forgets to pay they can pay until end of August (full price). Those who join after January pay only half of annual contribution.",
+             "Do a public document with tips for environmental+ethical projects or events",
+             "Use secure private open source cloud like Nextcloud? Like this https://cloudamo.com/compare.php",
+             "Find ways to value members, their aspirations, actions and intentions",
+             "Small form to give feedback (anonymous, for a specific member, for the whole club)",
+             "Feedback culture: say what you feel, give ideias to improve",
+             "The rotarian year must not be "the year of President X". The actions of the club must be continuous, each new president is not there to make "his/her year", but to ensure the continuance of the club's actions."]
             .sort()
             .map(i => "<li class='i-v bg-orange' style='margin: 5px 8px;'><a><p class='title' style='margin: 10px; cursor: pointer;'>" + i + "</p></a></li>")
             .join("");
