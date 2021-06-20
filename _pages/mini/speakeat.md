@@ -278,7 +278,7 @@ permalink: /speakeat
                 <br><br>
                 🌐 Climate Change <br> — SpeakEat 06 &nbsp;&nbsp; 2021-04-25 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
                 <br><br>
-                ⛱️ Summer Body <br> — SpeakEat 07 &nbsp;&nbsp; 2021-06-04 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
+                ⛱️ Summer Body <br> — SpeakEat 07 &nbsp;&nbsp; 2021-07-04 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
             </p>
         </li>
     </ul>
