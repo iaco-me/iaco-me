@@ -277,6 +277,8 @@ permalink: /speakeat
                 💼 Wellbeing at Work <br> — SpeakEat 05 &nbsp;&nbsp; 2021-03-21 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
                 <br><br>
                 🌐 Climate Change <br> — SpeakEat 06 &nbsp;&nbsp; 2021-04-25 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
+                <br><br>
+                ⛱️ Summer Body <br> — SpeakEat 07 &nbsp;&nbsp; 2021-06-04 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
             </p>
         </li>
     </ul>
