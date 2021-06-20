@@ -74,7 +74,7 @@ permalink: /speakeat
         </li>
     </ul>
     <script>
-        var start = {y: "2021",  m: "04",    d: "25",    h: "17", min: "00"};
+        var start = {y: "2021",  m: "07",    d: "04",    h: "17", min: "00"};
         var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
 
         var title = "SpeakEat Rotaract";
