@@ -16,7 +16,7 @@ permalink: /e-rotaract
 </head>
 <body class="en">
     <div class="author-photo">
-        <a class="js-scroll-trigger" href="https://instagram.com/iaco.me">
+        <a class="js-scroll-trigger" href="https://instagram.com/rotary">
             <img src="../../assets/images/rac-e-club-logo.jpg">
             <br>
             <!--@speak.eat
@@ -48,7 +48,7 @@ permalink: /e-rotaract
         var end =   {y: start.y, m: start.m, d: start.d, h: "18", min: start.min};
         var repeat = "&recur=RRULE:FREQ=MONTHLY;BYDAY=1SU";
 
-        var title = "e-Rotaract We Care";
+        var title = "e-Rotaract";
         var link = "https://iaco.me/e-rotaract"
         var description = "Details and videocall link: " + link;
 
@@ -294,11 +294,11 @@ permalink: /e-rotaract
     </script>
     <br><br><br>
     <hr style="width: 100px;">
-    <br><br><br>
+    <br><br><br><br><br>
     <center>
         (please, ignore the content below)
     </center>
-    <br><br><br>
+    <br><br><br><br><br>
     <ul>
         <li class="i-s">
             <a href="https://instagram.com/iaco.me">
