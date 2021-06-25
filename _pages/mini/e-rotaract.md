@@ -21,7 +21,7 @@ permalink: /e-rotaract
             <br>
             <!--@speak.eat
             <br>-->
-            Rotaract e-Club "We Care"
+            Rotaract E-Club
             <br>
         </a>
     </div>
