@@ -30,7 +30,7 @@ permalink: /speakeat
 
     <ul>
         <li class="i-s shake">
-            <a href="https://meet.google.com/mvx-htto-jpo">
+            <a href="https://univ-grenoble-alpes-fr.zoom.us/j/93915103056?pwd=VlIvN0Q1cmtiUmxxR0p5UUdzUy9KUT09">
                 <div class='logo'>
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>
