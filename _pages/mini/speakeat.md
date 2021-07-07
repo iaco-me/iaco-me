@@ -13,7 +13,45 @@ permalink: /speakeat
     <title>SpeakEat</title>
     <link rel="stylesheet" href="../../config/mini.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    
+    <script>
+        var list_events = [
+            {num: "01", sym: "🏳️‍🌈", date: "2020-12-13", title: "LGBT+"},
+            {num: "02", sym: "👥", date: "2021-01-03", title: "Discrimination"},
+            {num: "03", sym: "🧠", date: "2021-01-31", title: "Cognitive Bias (Biais Cognitif)"},
+            {num: "04", sym: "❤️", date: "2021-02-14", title: "Self-Love"},
+            {num: "05", sym: "💼", date: "2021-03-21", title: "Wellbeing at Work"},
+            {num: "06", sym: "🌐", date: "2021-04-25", title: "Climate Change"},
+            {num: "07", sym: "⛱️", date: "2021-07-04", title: "Summer Body"}
+        ];
+        
+        var start = {y: "2021",  m: "07",    d: "04",    h: "17", min: "00"};
+        var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
+
+        var title = "SpeakEat Rotaract";
+        var link = "https://tinyurl.com/speakeat-link"
+        var description = "Details and videocall link: " + link;
+
+        var titleEncoded = escape(title);
+        var linkEncoded = escape(link);
+        var descriptionEncoded = escape(description);
+
+        var dateStartGoogle = start.y + start.m + start.d + "T" + start.h + start.min;
+        var dateEndGoogle = end.y + end.m + end.d + "T" + end.h + end.min;
+        var urlGoogle = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=" + dateStartGoogle + "00Z%2F" + dateEndGoogle + "00Z&details=" + descriptionEncoded + "&text=" + titleEncoded;
+
+        var dateStartOutlook = start.y + "-" + start.m + "-" + start.d + "T" + start.h + "%3A" + start.min;
+        var dateEndOutlook = end.y + "-" + end.m + "-" + end.d + "T" + end.h + "%3A" + end.min;
+        var urlOutlook = "https://outlook.live.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
+
+        var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
+
+        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//www.iaco.me//SpeakEat Rotaract\nBEGIN:VEVENT\nUID:" + dateStartGoogle + "hi@iaco.me\nDTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nURL:" + link + "\nDESCRIPTION:" + description + "\nTRANSP:OPAQUE\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:" + title + "\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR";
+    </script>
 </head>
+
+
 <body class="en">
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://instagram.com/speak.eat">
@@ -73,30 +111,6 @@ permalink: /speakeat
             </a>
         </li>
     </ul>
-    <script>
-        var start = {y: "2021",  m: "07",    d: "04",    h: "17", min: "00"};
-        var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
-
-        var title = "SpeakEat Rotaract";
-        var link = "https://tinyurl.com/speakeat-link"
-        var description = "Details and videocall link: " + link;
-
-        var titleEncoded = escape(title);
-        var linkEncoded = escape(link);
-        var descriptionEncoded = escape(description);
-
-        var dateStartGoogle = start.y + start.m + start.d + "T" + start.h + start.min;
-        var dateEndGoogle = end.y + end.m + end.d + "T" + end.h + end.min;
-        var urlGoogle = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=" + dateStartGoogle + "00Z%2F" + dateEndGoogle + "00Z&details=" + descriptionEncoded + "&text=" + titleEncoded;
-
-        var dateStartOutlook = start.y + "-" + start.m + "-" + start.d + "T" + start.h + "%3A" + start.min;
-        var dateEndOutlook = end.y + "-" + end.m + "-" + end.d + "T" + end.h + "%3A" + end.min;
-        var urlOutlook = "https://outlook.live.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
-
-        var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
-
-        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//www.iaco.me//SpeakEat Rotaract\nBEGIN:VEVENT\nUID:" + dateStartGoogle + "hi@iaco.me\nDTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nURL:" + link + "\nDESCRIPTION:" + description + "\nTRANSP:OPAQUE\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:" + title + "\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR";
-    </script>
     <ul>
         <li class="i-s">
             <a onclick="window.open('data:text/calendar;charset=utf8,' + escape(icsFile));" target="_blank" style="cursor: pointer;">
@@ -266,6 +280,13 @@ permalink: /speakeat
     <ul>
         <li class="i-s">
             <p class='title' id="info" style="font-weight: normal; margin: 20px;">
+                <script>
+                    for(let i = 0; i < list_events.length; i++) {
+                        document.write(
+                        list_events[i].sym + " " + list_events[i].title + " <br> — SpeakEat " + list_events[i].num + " &nbsp;&nbsp; " + list_events[i].date + " &nbsp;&nbsp; <a href='https://www.facebook.com/speak.eat.page/events'><i class='fab fa-facebook'></i></a><br><br>"
+                        );
+                    }
+                </script>
                 🏳️‍🌈 LGBT+ <br> — SpeakEat 01 &nbsp;&nbsp; 2020-12-13 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
                 <br><br>
                 👥 Discrimination <br> — SpeakEat 02 &nbsp;&nbsp; 2021-01-03 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
