@@ -23,8 +23,8 @@ permalink: /speakeat
             {num: "04", sym: "❤️", date: "2021-02-14", title: "Self-Love"},
             {num: "05", sym: "💼", date: "2021-03-21", title: "Wellbeing at Work"},
             {num: "06", sym: "🌐", date: "2021-04-25", title: "Climate Change"},
-            {num: "07", sym: "⛱️", date: "2021-07-04", title: "Summer Body"},
-            {num: "08", sym: "X", date: "2021-08-01", title: "Title"}
+            {num: "07", sym: "⛱️", date: "2021-07-04", title: "Summer Body"}
+            //{num: "08", sym: "X", date: "2021-08-01", title: "Polyamory"}
         ];
         
         var next_event = list_events[list_events.length-1];
