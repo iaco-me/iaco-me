@@ -26,11 +26,16 @@ permalink: /speakeat
             {num: "07", sym: "⛱️", date: "2021-07-04", title: "Summer Body"}
         ];
         
-        var start = {y: "2021",  m: "07",    d: "04",    h: "17", min: "00"};
+        var next_event = list_events[list_events.length-1];
+        var next_d = next_event.date.split("-")[2];
+        var next_m = next_event.date.split("-")[1];
+        var next_y = next_event.date.split("-")[0];
+        
+        var start = {y: next_y,  m: next_m,  d: next_d,  h: "17", min: "00"};
         var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
-
-        var title = "SpeakEat Rotaract";
+        var title = "SpeakEat Rotaract - " + next_event.title;
         var link = "https://tinyurl.com/speakeat-link"
+        
         var description = "Details and videocall link: " + link;
 
         var titleEncoded = escape(title);
@@ -287,19 +292,6 @@ permalink: /speakeat
                         );
                     }
                 </script>
-                🏳️‍🌈 LGBT+ <br> — SpeakEat 01 &nbsp;&nbsp; 2020-12-13 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
-                <br><br>
-                👥 Discrimination <br> — SpeakEat 02 &nbsp;&nbsp; 2021-01-03 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
-                <br><br>
-                🧠 Cognitive Bias (Biais Cognitif) <br> — SpeakEat 03 &nbsp;&nbsp; 2021-01-31 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
-                <br><br>
-                ❤️ Self-Love <br> — SpeakEat 04 &nbsp;&nbsp; 2021-02-14 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
-                <br><br>
-                💼 Wellbeing at Work <br> — SpeakEat 05 &nbsp;&nbsp; 2021-03-21 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
-                <br><br>
-                🌐 Climate Change <br> — SpeakEat 06 &nbsp;&nbsp; 2021-04-25 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
-                <br><br>
-                ⛱️ Summer Body <br> — SpeakEat 07 &nbsp;&nbsp; 2021-07-04 &nbsp;&nbsp; <a href="https://www.facebook.com/speak.eat.page/events"><i class='fab fa-facebook'></i></a>
             </p>
         </li>
     </ul>
