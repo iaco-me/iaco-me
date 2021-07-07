@@ -251,7 +251,7 @@ permalink: /e-rotaract
              "Information/data/files are organized and centralized", "20 encounters per year: 10 meetings, 10 events (projects, partnerships...)",
              "Meetings the 1st Sunday of every month (exxcept for January and August)", "Minimum attendance of members: 6 meetings, 4 events",
              "If member has no minimum attendance, must pay a fine", "Member cannot vote if absent at 2 (or more) of previous 4 meetings (= 3/5)",
-             "Maximum of 2 (or 3) encounters per month", "Meetings always on sundays, with time between 16:30 and 19:30 (UTC)", "Learn about CNV (1h)", "Talk turns (organized meeting)",
+             "Maximum of 2 (or 3) encounters per month", "Meetings always on sundays, with time between 16:30 and 19:30 (UTC)", "Talk turns (organized meeting)",
              "Learn about 'nonviolent communication' before become member",
              "Create a method for meetings to avoid interrupting each other, e.g. speaking turns, so everyone is listened",
              "Manage conflicts having someone as 'mediator'",
